@@ -3,6 +3,15 @@ body {
   font-size: 15px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DIN Pro";
+}
+
 .header {
   background-color: #0f0f10;
   color: #ffffff;
@@ -80,6 +89,7 @@ body {
     line-height: 1.2;
     font-weight: 500;
     color: #242423;
+    margin-bottom: 20px;
   }
 
   &__subtitle {
@@ -88,6 +98,7 @@ body {
     line-height: 1.2;
     font-weight: 400;
     color: #8d8d8d;
+    margin-bottom: 40px;
   }
 }
 
@@ -128,10 +139,64 @@ body {
       width: 43px;
       height: 43px;
 
-
       position: absolute;
       right: 50px;
       bottom: 57px;
     }
   }
+}
+
+.news {
+  .row {
+    margin-bottom: 30px;
+  }
+
+  &-card {
+    width: 360px;
+    height: 400px;
+    background-color: #323031;
+    border-radius: 2px;
+    color: #ffffff;
+    padding: 30px;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    &__header {
+      flex: auto;
+    }
+
+    &__footer {
+    }
+
+    &__date {
+      font-size: 13px;
+      line-height: 1.2;
+      font-weight: 400;
+      margin-bottom: 15px;
+    }
+
+    &__title {
+      font-size: 18px;
+      line-height: 1.2;
+      font-weight: 500;
+      margin: 0;
+    }
+  }
+}
+
+.tag {
+  height: 30px;
+  background-color: #28b8dc;
+  border-radius: 15px;
+  font-family: "Rubik";
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0;
+  padding: 8px 16px;
 }

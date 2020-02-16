@@ -84,7 +84,7 @@
     </div>
   </header>
   <main>
-    <section class=" ">
+    <section>
       <div class="container section cities">
         <h2 class="section__title">Happening Cities</h2>
         <p class="section__subtitle">Cities you must explore this summer</p>
@@ -220,26 +220,40 @@
       </ul>
     </section>
     <section>
-      <h2>News & Tips</h2>
-      <p>Checkout latest news and articles from our blog</p>
-      <!-- News cards -->
-      <ul>
-        <li>
-          <p>January 18, 2018</p>
-          <h3>Making Coffee, since 1845. Coffee For All</h3>
-        </li>
-        <li>
-          <p>Lifestyle News</p>
-          <p>February 25, 2018</p>
-          <h3>The Best Music For Your Entertainment</h3>
-        </li>
-        <li>
-          <p>April 04, 2018</p>
-          <h3>How to Wear a Headscarf Like a Gucci Muse</h3>
-        </li>
-      </ul>
+      <div class="container section news">
+        <h2 class="section__title">News & Tips</h2>
+        <p class="section__subtitle">Checkout latest news and articles from our blog</p>
+        <!-- News cards -->
+        <div class="row d-flex justify-content-between">
+          <div class="news-card d-flex flex-column justify-content-end">
+            <div class="news-card__footer">
+              <p class="news-card__date">January 18, 2018</p>
+              <h3 class="news-card__title">Making Coffee, since 1845. Coffee For All</h3>
+            </div>
+          </div>
+
+          <div class="news-card">
+            <div class="news-card__header">
+              <p class="tag">Lifestyle, News</p>
+            </div>
+            <div class="news-card__footer">
+              <p class="news-card__date">February 25, 2018</p>
+              <h3 class="news-card__title">The Best Music For Your Entertainment</h3>
+            </div>
+          </div>
+
+          <div class="news-card">
+            <div class="news-card__footer">
+              <p class="news-card__date">April 04, 2018</p>
+              <h3 class="news-card__title">How to Wear a Headscarf Like a Gucci Muse</h3>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
+
+  <!-- =============== MAIN FOOTER =============== -->
   <footer>
     <!-- Main footer area -->
     <div class="container">

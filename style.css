@@ -3,6 +3,15 @@ body {
   font-size: 15px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DIN Pro";
+}
+
 .header {
   background-color: #0f0f10;
   color: #ffffff;
@@ -71,6 +80,7 @@ body {
   line-height: 1.2;
   font-weight: 500;
   color: #242423;
+  margin-bottom: 20px;
 }
 
 .section__subtitle {
@@ -79,6 +89,7 @@ body {
   line-height: 1.2;
   font-weight: 400;
   color: #8d8d8d;
+  margin-bottom: 40px;
 }
 
 .footer-low {
@@ -125,5 +136,65 @@ body {
   position: absolute;
   right: 50px;
   bottom: 57px;
+}
+
+.news .row {
+  margin-bottom: 30px;
+}
+
+.news-card {
+  width: 360px;
+  height: 400px;
+  background-color: #323031;
+  border-radius: 2px;
+  color: #ffffff;
+  padding: 30px;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.news-card__header {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.news-card__date {
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.news-card__title {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 500;
+  margin: 0;
+}
+
+.tag {
+  height: 30px;
+  background-color: #28b8dc;
+  border-radius: 15px;
+  font-family: "Rubik";
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0;
+  padding: 8px 16px;
 }
 /*# sourceMappingURL=style.css.map */
