@@ -1,0 +1,129 @@
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+}
+
+.header {
+  background-color: #0f0f10;
+  color: #ffffff;
+}
+
+.header .logo__title {
+  font-size: 30px;
+  font-family: "Barlow", sans-serif;
+}
+
+.header .main-nav-list {
+  list-style: none;
+}
+
+.header .add-listing-button {
+  height: 40px;
+  vertical-align: middle;
+  outline: none;
+}
+
+.header .header-slider_title {
+  font-family: "DIN Pro";
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.header .header-slider_subtitle {
+  font-size: 17px;
+}
+
+.cities-row {
+  margin-bottom: 30px;
+}
+
+.cities-row > :first-child {
+  padding-left: 0;
+}
+
+.cities-row > :last-child {
+  padding-right: 0;
+}
+
+.cities-item {
+  height: 250px;
+  background-color: #242423;
+  border-radius: 2px;
+  color: #ffffff;
+  padding: 24px 30px;
+  text-align: left;
+}
+
+.cities-item__title {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.section {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.section__title {
+  font-family: "DIN Pro";
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #242423;
+}
+
+.section__subtitle {
+  font-family: Rubik;
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #8d8d8d;
+}
+
+.footer-low {
+  font-size: 13px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #8d8d8d;
+  background-color: #000000;
+  position: relative;
+}
+
+.footer-low .row {
+  height: 80px;
+}
+
+.footer-low .social-icons {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-low .social-icons > .social-icon {
+  display: block;
+  margin-left: 24px;
+}
+
+.footer-low .social-icons > .social-icon_active {
+  color: #ffffff;
+}
+
+.footer-low .gotop-button {
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(35, 35, 35, 0.2);
+          box-shadow: 0px 0px 30px 0px rgba(35, 35, 35, 0.2);
+  background-color: #fb3640;
+  color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  width: 43px;
+  height: 43px;
+  position: absolute;
+  right: 50px;
+  bottom: 57px;
+}
+/*# sourceMappingURL=style.css.map */
