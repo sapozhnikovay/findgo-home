@@ -20,64 +20,78 @@
 <body>
   <header class="header">
     <div class="container">
-      <section class="row">
+      <section class="row d-flex justify-content-between align-items-center">
         <!-- Logo -->
         <div class="logo">
-          <img src="" alt="" class="logo__brand">
+          <img src="assets/img/logo.png" alt="" class="logo__brand">
           <p class="logo__title">Find&amp;Go</p>
         </div>
         <!-- Navigation menu -->
         <nav class="main-nav">
           <ul class="main-nav-list">
             <li class="main-nav-list__item">Home</li>
-            <li class="main-nav-list__item">Explore</li>
-            <li class="main-nav-list__item">Listings</li>
+            <li class="main-nav-list__item">Explore <i class="fas fa-chevron-down"></i></li>
+            <li class="main-nav-list__item">Listings <i class="fas fa-chevron-down"></i></li>
             <li class="main-nav-list__item">Destinations</li>
             <li class="main-nav-list__item">Pages</li>
           </ul>
+          <!-- Add listing button -->
+          <button class="add-listing-button"><i class="fas fa-plus"></i>Add Listing</button>
+          <!-- Profile icon -->
+          <img src="/assets/img/icon_user.png" alt="">
         </nav>
-        <!-- Add listing button -->
-        <button class="add-listing-button"><i class="fas fa-plus"></i>Add Listing</button>
-        <!-- Profile icon -->
-        <i></i>
       </section>
       <!-- Hero with form -->
-      <section class="row d-flex flex-column align-items-center">
-        <h2>Discover The City Gems</h2>
-        <p>Find great places to stay, eat, shop, or visit from local experts.</p>
+      <section class="row d-flex flex-column align-items-center search-area">
+        <h2 class="search-area__title">Discover The City Gems</h2>
+        <p class="search-area__subtitle">Find great places to stay, eat, shop, or visit from local experts.</p>
         <!-- Form -->
-        <form>
+        <form class="search-form">
           <!-- Input + dropdown -->
-          <div>
-            <input type="text" />
-            <i></i>
+          <div class="search-input__wrapper">
+            <input type="text" class="search-input" placeholder="What are you looking for?" />
+            <i class="fas fa-caret-down search-input__dropdown-icon"></i>
           </div>
           <!-- Search button -->
-          <button>Search <i></i></button>
+          <button class="search-button"><span class="search-button__text">Search</span> <i
+              class="fas fa-search"></i></button>
         </form>
-        <p>Or Browse The Highlights</p>
+        <div class="search-area__footer">
+          <p class="search-area__subtitle2">Or Browse The Highlights</p>
+          <img src="assets/img/arrow_down.png" alt="" class="search-area__arrow">
+        </div>
         <!-- Gems types icons -->
         <div>
-          <ul>
-            <li>
-              <img src="" alt="">
-              <p>Nightlife</p>
+          <ul class="highlights-list">
+            <li class="highlights-list__item">
+              <div class="highlights-list__item-icon-wrapper">
+                <img src="assets/img/icon_glass.png" alt="" class="highlights-list__item-icon">
+              </div>
+              <p class="highlights-list__item-title">Nightlife</p>
             </li>
-            <li>
-              <img src="" alt="">
-              <p>Hotels</p>
+            <li class="highlights-list__item">
+              <div class="highlights-list__item-icon-wrapper">
+                <img src="assets/img/icon_glass.png" alt="" class="highlights-list__item-icon">
+              </div>
+              <p class="highlights-list__item-title">Hotels</p>
             </li>
-            <li>
-              <img src="" alt="">
-              <p>Outdoor Activities</p>
+            <li class="highlights-list__item">
+              <div class="highlights-list__item-icon-wrapper">
+                <img src="assets/img/icon_glass.png" alt="" class="highlights-list__item-icon">
+              </div>
+              <p class="highlights-list__item-title">Outdoor Activities</p>
             </li>
-            <li>
-              <img src="" alt="">
-              <p>Shops</p>
+            <li class="highlights-list__item">
+              <div class="highlights-list__item-icon-wrapper">
+                <img src="assets/img/icon_glass.png" alt="" class="highlights-list__item-icon">
+              </div>
+              <p class="highlights-list__item-title">Shops</p>
             </li>
-            <li>
-              <img src="" alt="">
-              <p>Restaurants</p>
+            <li class="highlights-list__item">
+              <div class="highlights-list__item-icon-wrapper">
+                <img src="assets/img/icon_glass.png" alt="" class="highlights-list__item-icon">
+              </div>
+              <p class="highlights-list__item-title">Restaurants</p>
             </li>
           </ul>
         </div>
@@ -86,8 +100,8 @@
   </header>
   <main>
     <!-- =============== CITIES =============== -->
-    <section>
-      <div class="container section cities">
+    <section class="section cities">
+      <div class="container  ">
         <h2 class="section__title">Happening Cities</h2>
         <p class="section__subtitle">Cities you must explore this summer</p>
         <!-- Cities cards -->
@@ -137,8 +151,8 @@
       </div>
     </section>
     <!-- =============== PLACES =============== -->
-    <section class="places">
-      <div class="container section ">
+    <section class="section places">
+      <div class="container">
         <h2 class="section__title">Most Visited Places</h2>
         <p class="section__subtitle">Explore the greates places in the city. You won’t be disappointed.</p>
         <!-- List of Hotels and restaurants -->
@@ -146,6 +160,7 @@
           <div class="col-4">
             <div class="place-card">
               <div class="place-card__preview">
+                <div class="place-card__preview-tags"></div>
                 <div class="place-card__preview-row">
                   <p><i></i>Preview</p>
                   <p>Save<i></i></p>
@@ -158,7 +173,9 @@
                   <div class="place-card__properties">
                     <span class="place-card__rating place-card__rating_good">4.5</span>
                     <p>3 Ratings</p>
+                    <p class="place-card__properties-delimiter"></p>
                     <p><i></i>Restaurant</p>
+                    <p class="place-card__properties-delimiter"></p>
                     <p>Open</p>
                   </div>
                 </div>
@@ -176,6 +193,7 @@
           <div class="col-4">
             <div class="place-card">
               <div class="place-card__preview">
+                <div class="place-card__preview-tags"></div>
                 <div class="place-card__preview-row">
                   <p><i></i>Preview</p>
                   <p>Save<i></i></p>
@@ -188,8 +206,10 @@
                   <div class="place-card__properties">
                     <span class="place-card__rating place-card__rating_good">4.5</span>
                     <p>3 Ratings</p>
+                    <p class="place-card__properties-delimiter"></p>
                     <p><i></i>Restaurant</p>
-                    <p>Open</p>
+                    <p class="place-card__properties-delimiter"></p>
+                    <p>Closed</p>
                   </div>
                 </div>
                 <div class="place-card__contacts">
@@ -206,6 +226,9 @@
           <div class="col-4">
             <div class="place-card">
               <div class="place-card__preview">
+                <div class="place-card__preview-tags">
+                  <p class="tag">$10 $20</p>
+                </div>
                 <div class="place-card__preview-row">
                   <p><i></i>Preview</p>
                   <p>Save<i></i></p>
@@ -218,7 +241,9 @@
                   <div class="place-card__properties">
                     <span class="place-card__rating place-card__rating_good">4.5</span>
                     <p>3 Ratings</p>
+                    <p class="place-card__properties-delimiter"></p>
                     <p><i></i>Restaurant</p>
+                    <p class="place-card__properties-delimiter"></p>
                     <p>Open</p>
                   </div>
                 </div>
@@ -243,15 +268,15 @@
     </section>
 
     <!-- =============== HOW IT WORKS =============== -->
-    <section>
-      <div class="container section activities">
+    <section class="section activities">
+      <div class="container ">
         <h2 class="section__title">See How It Works</h2>
         <p class="section__subtitle">Discover & connect with great local businesses</p>
         <!-- Activities list -->
         <div class="row">
           <div class="col-4">
             <div class="activity-card">
-              <img src="" alt="" class="activity-card__icon">
+              <img src="assets/img/icon_calendar.png" alt="" class="activity-card__icon">
               <h3 class="activity-card__title">Choose What To Do</h3>
               <p class="activity-card__description">Aliquam lorem ante, dapibus in, viverra quis, feugiat<br />
                 Phasellus viverra nulla ut <br /> metus
@@ -261,7 +286,7 @@
           </div>
           <div class="col-4">
             <div class="activity-card">
-              <img src="" alt="" class="activity-card__icon">
+              <img src="assets/img/icon_map.png" alt="" class="activity-card__icon">
               <h3 class="activity-card__title">Find What You Want</h3>
               <p class="activity-card__description">Aliquam lorem ante, dapibus in, viverra quis, feugiat<br />
                 Phasellus viverra nulla ut <br /> metus
@@ -271,7 +296,7 @@
           </div>
           <div class="col-4">
             <div class="activity-card">
-              <img src="" alt="" class="activity-card__icon">
+              <img src="assets/img/icon_globe.png" alt="" class="activity-card__icon">
               <h3 class="activity-card__title">Amazing Places</h3>
               <p class="activity-card__description">Aliquam lorem ante, dapibus in, viverra quis, feugiat<br />
                 Phasellus viverra nulla ut <br /> metus
@@ -284,8 +309,8 @@
     </section>
 
     <!-- =============== NEWS =============== -->
-    <section>
-      <div class="container section news">
+    <section class="section news">
+      <div class="container">
         <h2 class="section__title">News & Tips</h2>
         <p class="section__subtitle">Checkout latest news and articles from our blog</p>
         <!-- News cards -->
@@ -331,7 +356,7 @@
           <div class="col-3">
             <!-- Logo and contacts -->
             <div class="logo">
-              <img src="" alt="" class="logo__brand">
+              <img src="assets/img/logo.png" alt="" class="logo__brand">
               <p class="logo__title">Find&amp;Go</p>
             </div>
           </div>
