@@ -137,66 +137,108 @@
       </div>
     </section>
     <!-- =============== PLACES =============== -->
-    <section>
-      <div class="container section">
+    <section class="places">
+      <div class="container section ">
         <h2 class="section__title">Most Visited Places</h2>
         <p class="section__subtitle">Explore the greates places in the city. You won’t be disappointed.</p>
         <!-- List of Hotels and restaurants -->
-        <ul>
-          <li>
-            <div>
-              <img src="" alt="">
-              <p><i></i>Preview</p>
-              <p>Save<i></i></p>
-            </div>
-            <div>
-              <h3>Hills Restaurant</h3>
-              <p>Delicious, luxury food for you</p>
-              <div>
-                <p>4.5</p>
-                <p>3 Ratings</p>
-                <p><i></i>Restaurant</p>
-                <p>Open</p>
-                <div></div>
+        <div class="row">
+          <div class="col-4">
+            <div class="place-card">
+              <div class="place-card__preview">
+                <div class="place-card__preview-row">
+                  <p><i></i>Preview</p>
+                  <p>Save<i></i></p>
+                </div>
+              </div>
+              <div class="place-card__content">
+                <div class="place-card__details">
+                  <h3 class="place-card__title">Hills Restaurant</h3>
+                  <div class="place-card__subtitle">Delicious, luxury food for you</div>
+                  <div class="place-card__properties">
+                    <span class="place-card__rating place-card__rating_good">4.5</span>
+                    <p>3 Ratings</p>
+                    <p><i></i>Restaurant</p>
+                    <p>Open</p>
+                  </div>
+                </div>
+                <div class="place-card__contacts">
+                  <div>
+                    <i></i> Roma, Italy
+                  </div>
+                  <div>
+                    <i></i> + 44 20 456 823
+                  </div>
+                </div>
               </div>
             </div>
-          </li>
-          <li>
-            <img src="" alt="">
-            <p><i></i>Preview</p>
-            <p>Save<i></i></p>
-            <div>
-              <h3>Urban Hotels</h3>
-              <p>Delicious, luxury food for you</p>
-              <div>
-                <p>4.5</p>
-                <p>3 Ratings</p>
-                <p>Restaurant</p>
-                <p>Open</p>
-                <div></div>
+          </div>
+          <div class="col-4">
+            <div class="place-card">
+              <div class="place-card__preview">
+                <div class="place-card__preview-row">
+                  <p><i></i>Preview</p>
+                  <p>Save<i></i></p>
+                </div>
+              </div>
+              <div class="place-card__content">
+                <div class="place-card__details">
+                  <h3 class="place-card__title">Urban Hotels</h3>
+                  <div class="place-card__subtitle">Delicious, luxury food for you</div>
+                  <div class="place-card__properties">
+                    <span class="place-card__rating place-card__rating_good">4.5</span>
+                    <p>3 Ratings</p>
+                    <p><i></i>Restaurant</p>
+                    <p>Open</p>
+                  </div>
+                </div>
+                <div class="place-card__contacts">
+                  <div>
+                    <i></i> London, England
+                  </div>
+                  <div>
+                    <i></i> + 44 20 456 823
+                  </div>
+                </div>
               </div>
             </div>
-          </li>
-          <li>
-            <img src="" alt="">
-            <p><i></i>Preview</p>
-            <p>Save<i></i></p>
-            <div>
-              <h3>Liberty Club</h3>
-              <p>Delicious, luxury food for you</p>
-              <div>
-                <p>4.5</p>
-                <p>3 Ratings</p>
-                <p>Restaurant</p>
-                <p>Open</p>
-                <div></div>
+          </div>
+          <div class="col-4">
+            <div class="place-card">
+              <div class="place-card__preview">
+                <div class="place-card__preview-row">
+                  <p><i></i>Preview</p>
+                  <p>Save<i></i></p>
+                </div>
+              </div>
+              <div class="place-card__content">
+                <div class="place-card__details">
+                  <h3 class="place-card__title">Liberty Club</h3>
+                  <div class="place-card__subtitle">Delicious, luxury food for you</div>
+                  <div class="place-card__properties">
+                    <span class="place-card__rating place-card__rating_good">4.5</span>
+                    <p>3 Ratings</p>
+                    <p><i></i>Restaurant</p>
+                    <p>Open</p>
+                  </div>
+                </div>
+                <div class="place-card__contacts">
+                  <div>
+                    <i></i> Istanbul, Turkey
+                  </div>
+                  <div>
+                    <i></i> + 44 20 456 823
+                  </div>
+                </div>
               </div>
             </div>
-          </li>
-        </ul>
+          </div>
+        </div>
         <!-- Buttons for list scroll -->
-        <button></button>
-        <button></button>
+        <div class="places__buttons">
+          <button class="places__button places__button_disabled"><i class="fas fa-chevron-left"></i></button>
+          <button class="places__button"><i class="fas fa-chevron-right"></i></button>
+        </div>
       </div>
     </section>
 
@@ -288,8 +330,9 @@
         <div class="row footer-main__row-headers">
           <div class="col-3">
             <!-- Logo and contacts -->
-            <div>
-              Find&amp;Go
+            <div class="logo">
+              <img src="" alt="" class="logo__brand">
+              <p class="logo__title">Find&amp;Go</p>
             </div>
           </div>
           <div class="col-2">

@@ -10,6 +10,7 @@ h4,
 h5,
 h6 {
   font-family: "DIN Pro";
+  font-weight: 500;
   line-height: 1.2;
   margin: 0;
 }
@@ -17,11 +18,6 @@ h6 {
 .header {
   background-color: #0f0f10;
   color: #ffffff;
-}
-
-.header .logo__title {
-  font-size: 30px;
-  font-family: "Barlow", sans-serif;
 }
 
 .header .main-nav-list {
@@ -266,5 +262,186 @@ h6 {
 .download-app-card__description {
   line-height: 24px;
   margin: 0;
+}
+
+.logo__title {
+  font-size: 30px;
+  font-family: "Barlow", sans-serif;
+}
+
+.logo__title::after {
+  content: "\2024";
+  color: #fb3640;
+  font-size: 48px;
+}
+
+.places {
+  background-color: #f8fafa;
+}
+
+.places .place-card {
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.02);
+          box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.02);
+  height: 390px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+}
+
+.places .place-card__preview {
+  height: 220px;
+  background-color: #323031;
+  border-radius: 2px 2px 0px 0px;
+  padding: 20px 20px 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.places .place-card__preview-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.places .place-card__content {
+  text-align: left;
+  padding: 20px 20px 20px 20px;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.places .place-card__details {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.places .place-card__details > *:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.places .place-card__title {
+  font-size: 18px;
+  color: #242423;
+}
+
+.places .place-card__subtitle {
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #8d8d8d;
+}
+
+.places .place-card__contacts {
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #8b8b8b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.places .place-card__properties {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #28b8dc;
+}
+
+.places .place-card__properties > * {
+  margin-right: 10px;
+}
+
+.places .place-card__properties > p {
+  margin-bottom: 0;
+}
+
+.places .place-card__rating {
+  border-radius: 2px;
+  padding: 1px 4px;
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.places .place-card__rating_good {
+  background-color: #b4c52c;
+}
+
+.places__buttons {
+  padding-top: 50px;
+  padding-bottom: 35px;
+}
+
+.places__button {
+  width: 48px;
+  height: 48px;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.02);
+          box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.02);
+  background-color: #ffffff;
+  color: #fb3640;
+  border: none;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.places__button_disabled {
+  background-color: #b3b4b4;
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
