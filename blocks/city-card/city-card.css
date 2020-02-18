@@ -1,0 +1,10 @@
+@import url(./__subtitle/city-card__subtitle.css);
+@import url(./__title/city-card__title.css);
+
+.city-card {
+  height: 250px;
+  background-color: #242423;
+  border-radius: 2px;
+  color: #ffffff;
+  padding: 24px 30px;
+}
