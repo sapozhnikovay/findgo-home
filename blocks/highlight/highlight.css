@@ -1,0 +1,16 @@
+@import url(./__background/highlight__background.css);
+@import url(./__icon/highlight__icon.css);
+@import url(./__logo/highlight__logo.css);
+@import url(./__title/highlight__title.css);
+
+.highlight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 15px;
+
+  width: 92px;
+}

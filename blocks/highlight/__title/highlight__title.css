@@ -1,0 +1,9 @@
+.highlight__title {
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 17px;
+  white-space: nowrap;
+  align-self: center;
+}

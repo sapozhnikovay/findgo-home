@@ -7,7 +7,7 @@
   line-height: 1.2;
   font-weight: 400;
   color: #fefefe;
-  z-index: 1;
+  position: relative;
 
   display: flex;
   align-items: center;

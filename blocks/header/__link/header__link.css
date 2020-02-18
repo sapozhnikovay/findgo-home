@@ -1,0 +1,12 @@
+.header__link {
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.header__link > i {
+  margin-left: 5px;
+}

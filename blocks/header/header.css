@@ -1,0 +1,16 @@
+@import url(./__link/header__link.css);
+@import url(./__listing-button/header__listing-button.css);
+@import url(./__navigation/header__navigation.css);
+@import url(./__links/header__links.css);
+@import url(./__profile-link/header__profile-link.css);
+@import url(./__subtitle/header__subtitle.css);
+@import url(./__title/header__title.css);
+@import url(./__top/header__top.css);
+
+.header{
+  background-color: #0f0f10;
+  color: #ffffff;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  text-align: center;
+}

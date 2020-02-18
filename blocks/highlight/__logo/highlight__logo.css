@@ -1,0 +1,11 @@
+.highlight__logo {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: auto;
+  width: 92px;
+  height: 92px;
+}

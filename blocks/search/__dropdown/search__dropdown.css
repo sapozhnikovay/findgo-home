@@ -1,0 +1,6 @@
+.search__dropdown {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  position: relative;
+}

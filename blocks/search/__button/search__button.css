@@ -1,0 +1,14 @@
+.search__button {
+  height: 60px;
+    background-color: #fb3640;
+    border-radius: 2px;
+    font-family: 'DIN Pro';
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+}

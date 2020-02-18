@@ -1,0 +1,16 @@
+.header__listing-button {
+  height: 40px;
+  vertical-align: middle;
+  outline: none;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  background: none;
+  padding: 0 23px;
+  color: #ffffff;
+  margin-left: 50px;
+  margin-right: 30px;
+}
+
+.header__listing-button > i {
+  margin-right: 11px;
+}
