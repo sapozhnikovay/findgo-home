@@ -1,0 +1,27 @@
+.round-icon {
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.round-icon_blue {
+  background-color: #28b8dc;
+}
+
+.round-icon_green {
+  background-color: #4baa3b;
+}
+
+.round-icon_lime {
+  background-color: #57d342;
+}
+
+.round-icon_violet {
+  background-color: #4162c0;
+}
+
+.round-icon_pink {
+  background-color: #f90c83;
+}

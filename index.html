@@ -1,388 +1,423 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Meta -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="description" content="City Guide" />
-    <meta name="keywords" content="HTML5, CSS, Javascript" />
-    <meta name="author" content="Alexey Sapozhnikov" />
-    <!-- Favicon -->
-    <link rel="icon" sizes="any" type="image/svg+xml" href="./image/favicon.svg" />
-    <link rel="icon" type="image/png" href="./image/icon.png" />
 
-    <title>Find&amp;Go</title>
+<head>
+  <!-- Meta -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="City Guide" />
+  <meta name="keywords" content="HTML5, CSS, Javascript" />
+  <meta name="author" content="Alexey Sapozhnikov" />
+  <!-- Favicon -->
+  <link rel="icon" sizes="any" type="image/svg+xml" href="./image/favicon.svg" />
+  <link rel="icon" type="image/png" href="./image/icon.png" />
 
-    <!-- Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow|Rubik:300,400&display=swap" />
-    <!-- Styles -->
-    <link rel="stylesheet" href="vendor/fonts.css" />
-    <link rel="stylesheet" href="vendor/fontawesome.css" />
-    <link rel="stylesheet" href="pages/index.css" />
-  </head>
+  <title>Find&amp;Go</title>
 
-  <body>
-    <header class="header">
-      <div class="container">
-        <section class="header__top">
-          <!-- Logo -->
-          <a href="" class="logo">
-            <img src="images/logo.png" alt="Find and Go logo" class="logo__brand" />
-            <p class="logo__title">Find&amp;Go</p>
-          </a>
-          <!-- Navigation menu -->
-          <div class="header__navigation">
-            <nav class="header__links">
-              <a href="" class="header__link">Home</a>
-              <a href="" class="header__link">Explore <i class="fas fa-chevron-down"></i></a>
-              <a href="" class="header__link">Listings <i class="fas fa-chevron-down"></i></a>
-              <a href="" class="header__link">Destinations</a>
-              <a href="" class="header__link">Pages</a>
-            </nav>
-            <!-- Add listing button -->
-            <button class="header__listing-button"><i class="fas fa-plus"></i>Add Listing</button>
-            <!-- Profile icon -->
-            <a href="" class="header__profile-link"><img src="/images/icon_user.png" alt="user profile"/></a>
-          </div>
-        </section>
-        <!-- Hero with form -->
-        <h2 class="header__title">Discover The City Gems</h2>
-        <p class="header__subtitle">Find great places to stay, eat, shop, or visit from local experts.</p>
-        <!-- Form -->
-        <form class="search">
-          <!-- Input + dropdown -->
-          <div class="search__dropdown">
-            <input type="text" class="search__input" placeholder="What are you looking for?" />
-            <i class="fas fa-caret-down search__dropdown-icon"></i>
-          </div>
-          <!-- Search button -->
-          <button type="submit" class="search__button">Search <i class="fas fa-search search__button-icon"></i></button>
-        </form>
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow|Rubik:300,400&display=swap" />
+  <!-- Styles -->
+  <link rel="stylesheet" href="vendor/fonts.css" />
+  <link rel="stylesheet" href="vendor/fontawesome.css" />
+  <link rel="stylesheet" href="pages/index.css" />
+</head>
 
-        <section class="highlights">
-          <div class="highlights__header">
-            <p class="highlights__invitation">Or Browse The Highlights</p>
-            <img src="images/arrow_down.png" alt="highlights arrow down" class="highlights__arrow" />
-          </div>
-          <!-- Highlights icons -->
-          <div class="highlights__list">
-            <a class="highlight" href="#">
-              <div class="highlight__logo">
-                <div class="highlight__background"></div>
-                <img class="highlight__icon" src="images/nightlife.svg" alt="nightlife" />
-              </div>
-              <h3 class="highlight__title">Nightlife</h3>
-            </a>
-            <a class="highlight" href="#">
-              <div class="highlight__logo">
-                <div class="highlight__background"></div>
-                <img class="highlight__icon" src="images/hotels.svg" alt="hotels" />
-              </div>
-              <h3 class="highlight__title">Hotels</h3>
-            </a>
-
-            <a class="highlight" href="#">
-              <div class="highlight__logo">
-                <div class="highlight__background"></div>
-                <img class="highlight__icon" src="images/outdoor.svg" alt="outdoor" />
-              </div>
-              <h3 class="highlight__title">Outdoor Activities</h3>
-            </a>
-
-            <a class="highlight" href="#">
-              <div class="highlight__logo">
-                <div class="highlight__background"></div>
-                <img class="highlight__icon" src="images/shops.svg" alt="shops" />
-              </div>
-              <h3 class="highlight__title">Shops</h3>
-            </a>
-
-            <a class="highlight" href="#">
-              <div class="highlight__logo">
-                <div class="highlight__background"></div>
-                <img class="highlight__icon" src="images/restaurant.svg" alt="restaurant" />
-              </div>
-              <h3 class="highlight__title">Restaurant</h3>
-            </a>
-          </div>
-        </section>
-      </div>
-    </header>
-    <main>
-      <!-- =============== CITIES =============== -->
-      <section class="section cities">
-        <h2 class="section__title">Happening Cities</h2>
-        <p class="section__subtitle">Cities you must explore this summer</p>
-        <!-- Cities cards -->
-        <div class="container grid">
-          <div class="grid__col_md_6">
-            <div class="city-card">
-              <h3 class="city-card__title">Istanbul</h3>
-              <p class="city-card__subtitle">7 listings</p>
-            </div>
-          </div>
-          <div class="grid__col_md_3">
-            <div class="city-card">
-              <h3 class="city-card__title">Hon Kong</h3>
-            </div>
-          </div>
-          <div class="grid__col_md_3">
-            <div class="city-card">
-              <h3 class="city-card__title">New York</h3>
-            </div>
-          </div>
-          <div class="grid__col_md_3">
-            <div class="city-card">
-              <h3 class="city-card__title">Sydney</h3>
-            </div>
-          </div>
-          <div class="grid__col_md_3">
-            <div class="city-card">
-              <h3 class="city-card__title">Amsterdam</h3>
-            </div>
-          </div>
-          <div class="grid__col_md_6">
-            <div class="city-card">
-              <h3 class="city-card__title">London</h3>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- =============== PLACES =============== -->
-      <section class="section places">
-        <h2 class="section__title">Most Visited Places</h2>
-        <p class="section__subtitle">Explore the greates places in the city. You won’t be disappointed.</p>
-        <!-- List of Hotels and restaurants -->
-        <div class="container grid">
-          <div class="grid__col_md_4">
-            <div class="place-card">
-              <img src="" alt="" class="place-card__image" />
-              <div class="place-card__tags">
-                <p class="tag tag_blue place-card__tag">$10 $20</p>
-                <p class="tag tag_blue place-card__tag">Great place</p>
-              </div>
-              <p class="place-card__preview-link"><img src="images/preview.svg" alt="" /> Preview</p>
-              <p class="place-card__save-link">Save <img src="images/like.svg" alt="" /></p>
-              <h3 class="place-card__title">Hills Restaurant</h3>
-              <div class="place-card__subtitle">Delicious, luxury food for you</div>
-              <div class="place-card__details">
-                <span class="place-card__rating place-card__rating_good">4.5</span>
-                <p>3 Ratings</p>
-                <p class="place-card__delimiter"></p>
-                <img src="images/restaurant.png" alt="" />
-                <p>Restaurant</p>
-                <p class="place-card__delimiter"></p>
-                <p>Open</p>
-              </div>
-              <p class="place-card__location"><img src="images/placepoint.svg" alt="" /> Roma, Italy</p>
-              <p class="place-card__phone"><img src="images/phone.svg" alt="" /> + 44 20 456 823</p>
-            </div>
-          </div>
-          <div class="grid__col_md_4">
-            <div class="place-card">
-              <img src="" alt="" class="place-card__image" />
-              <p class="place-card__preview-link"><img src="images/preview.svg" alt="" /> Preview</p>
-              <p class="place-card__save-link">Save <img src="images/like.svg" alt="" /></p>
-              <h3 class="place-card__title">Urban Hotels</h3>
-              <div class="place-card__subtitle">Delicious, luxury food for you</div>
-              <div class="place-card__details">
-                <span class="place-card__rating place-card__rating_good">4.5</span>
-                <p>3 Ratings</p>
-                <p class="place-card__delimiter"></p>
-                <img src="images/restaurant.png" alt="" />
-                <p>Restaurant</p>
-                <p class="place-card__delimiter"></p>
-                <p>Open</p>
-              </div>
-              <p class="place-card__location"><img src="images/placepoint.svg" alt="" /> London, England</p>
-              <p class="place-card__phone"><img src="images/phone.svg" alt="" /> + 44 20 456 823</p>
-            </div>
-          </div>
-          <div class="grid__col_md_4">
-            <div class="place-card">
-              <img src="" alt="" class="place-card__image" />
-              <p class="place-card__preview-link"><img src="images/preview.svg" alt="" /> Preview</p>
-              <p class="place-card__save-link">Save <img src="images/like.svg" alt="" /></p>
-              <h3 class="place-card__title">Liberty Club</h3>
-              <div class="place-card__subtitle">Delicious, luxury food for you</div>
-              <div class="place-card__details">
-                <span class="place-card__rating place-card__rating_good">4.5</span>
-                <p>3 Ratings</p>
-                <p class="place-card__delimiter"></p>
-                <img src="images/restaurant.png" alt="" />
-                <p>Restaurant</p>
-                <p class="place-card__delimiter"></p>
-                <p>Open</p>
-              </div>
-              <p class="place-card__location"><img src="images/placepoint.svg" alt="" /> Istanbul, Turkey</p>
-              <p class="place-card__phone"><img src="images/phone.svg" alt="" /> + 44 20 456 823</p>
-            </div>
-          </div>
-        </div>
-        <!-- Buttons for list scroll -->
-        <div class="places__buttons">
-          <button class="places__button places__button_disabled"><i class="fas fa-chevron-left"></i></button>
-          <button class="places__button"><i class="fas fa-chevron-right"></i></button>
-        </div>
-      </section>
-
-      <!-- =============== HOW IT WORKS =============== -->
-      <section class="section activities">
-        <h2 class="section__title">See How It Works</h2>
-        <p class="section__subtitle">Discover & connect with great local businesses</p>
-        <!-- Activities list -->
-        <div class="container grid">
-          <div class="grid__col_md_4">
-            <div class="activity-card">
-              <img src="images/icon_calendar.png" alt="calendar" class="activity-card__icon" />
-              <h3 class="activity-card__title">Choose What To Do</h3>
-              <p class="activity-card__description">
-                Aliquam lorem ante, dapibus in, viverra quis, feugiat<br />
-                Phasellus viverra nulla ut <br />
-                metus varius laoreet.
-              </p>
-            </div>
-          </div>
-          <div class="grid__col_md_4">
-            <div class="activity-card">
-              <img src="images/icon_map.png" alt="map" class="activity-card__icon" />
-              <h3 class="activity-card__title">Find What You Want</h3>
-              <p class="activity-card__description">
-                Aliquam lorem ante, dapibus in, viverra quis, feugiat<br />
-                Phasellus viverra nulla ut <br />
-                metus varius laoreet.
-              </p>
-            </div>
-          </div>
-          <div class="grid__col_md_4">
-            <div class="activity-card">
-              <img src="images/icon_globe.png" alt="places on globe" class="activity-card__icon" />
-              <h3 class="activity-card__title">Amazing Places</h3>
-              <p class="activity-card__description">
-                Aliquam lorem ante, dapibus in, viverra quis, feugiat<br />
-                Phasellus viverra nulla ut <br />
-                metus varius laoreet.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- =============== NEWS =============== -->
-      <section class="section news">
-        <h2 class="section__title">News & Tips</h2>
-        <p class="section__subtitle">Checkout latest news and articles from our blog</p>
-        <!-- News cards -->
-        <div class="container">
-          <div class="grid">
-            <div class="grid__col_md_4">
-              <div class="news-card">
-                <p class="news-card__date">January 18, 2018</p>
-                <h3 class="news-card__title">Making Coffee, since 1845. Coffee For All</h3>
-              </div>
-            </div>
-            <div class="grid__col_md_4">
-              <div class="news-card">
-                <div class="news-card__tags">
-                  <p class="tag tag_blue news-card__tag">Lifestyle, News</p>
-                  <p class="tag tag_blue news-card__tag">Lifestyle</p>
-                  <p class="tag tag_blue news-card__tag">News</p>
-                  <p class="tag tag_blue news-card__tag">Attractions</p>
-                </div>
-                <p class="news-card__date">February 25, 2018</p>
-                <h3 class="news-card__title">The Best Music For Your Entertainment</h3>
-              </div>
-            </div>
-            <div class="grid__col_md_4">
-              <div class="news-card">
-                <p class="news-card__date">April 04, 2018</p>
-                <h3 class="news-card__title">How to Wear a Headscarf Like a Gucci Muse</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- =============== MAIN FOOTER =============== -->
-    <footer class="footer">
-      <!-- Main footer area -->
-      <div class="footer__grid container grid">
-        <a href="" class="logo grid__col_md_3">
-          <img src="images/logo.png" alt="" class="logo__brand" />
+<body>
+  <header class="header">
+    <div class="container">
+      <section class="header__top">
+        <!-- Logo -->
+        <a href="" class="logo">
+          <img src="images/logo.png" alt="Find and Go logo" class="logo__brand" />
           <p class="logo__title">Find&amp;Go</p>
         </a>
-        <h3 class="footer__title grid__col_md_2">Pages</h3>
-        <h3 class="footer__title grid__col_md_2">The Highlights</h3>
-        <h3 class="footer__title grid__col_md_2">My Account</h3>
-        <h3 class="footer__title grid__col_md_3">Download App</h3>
-        <address class="footer__text grid__col_md_3">
-          Collins Street West, Victoria 8007, Australia.<br />
-          +1 246-345-0695 <br />
-          info@example.com
-        </address>
-        <nav class="footer__navigation grid__col_md_2 ">
-          <a href="" class="footer__text">Contact</a>
-          <a href="" class="footer__text">Events</a>
-          <a href="" class="footer__text">Members</a>
-          <a href="" class="footer__text">Blog</a>
-          <a href="" class="footer__text">Services</a>
-        </nav>
-        <nav class="footer__navigation grid__col_md_2">
-          <a href="" class="footer__text">Dinner</a>
-          <a href="" class="footer__text">Restaurants</a>
-          <a href="" class="footer__text">Hotel</a>
-          <a href="" class="footer__text">Coffee</a>
-          <a href="" class="footer__text">Club &amp; bar</a>
-        </nav>
-        <nav class="footer__navigation grid__col_md_2">
-          <a href="" class="footer__text">Dashboard</a>
-          <a href="" class="footer__text">Listings</a>
-          <a href="" class="footer__text">Events</a>
-          <a href="" class="footer__text">Favorites</a>
-          <a href="" class="footer__text">Cart</a>
-        </nav>
-        <div class="footer__navigation grid__col_md_3 footer__storecards">
-          <a href="" class="storecard">
-            <img src="images/apple.svg" alt="App Store" class="storecard__icon" />
-            <p class="storecard__title">App Store</p>
-            <p class="storecard__subtitle">Available now on the</p>
-          </a>
-          <a href="" class="storecard">
-            <img src="images/google-play.svg" alt="Google Play" class="storecard__icon" />
-            <p class="storecard__title">Google Play</p>
-            <p class="storecard__subtitle">Get it on</p>
-          </a>
-        </div>
-      </div>
-      <!-- Low footer row -->
-      <div class="footer__bottom">
-        <div class="footer__content container">
-          <div class="footer__text">&copy; 2018 Find&Go All rights reserved. Design by Creative Layers</div>
-          <nav class="footer__social-icons">
-            <a class="footer__social-icon" href="https://www.facebook.com" target="_blank">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-            <a class="footer__social-icon footer__social-icon_active" href="https://twitter.com/" target="_blank">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a class="footer__social-icon" href="https://www.instagram.com/" target="_blank">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a class="footer__social-icon" href="https://www.pinterest.ru/" target="_blank">
-              <i class="fab fa-pinterest"></i>
-            </a>
-            <a class="footer__social-icon" href="https://dribbble.com/" target="_blank">
-              <i class="fab fa-dribbble"></i>
-            </a>
-            <a class="footer__social-icon" href="https://myaccount.google.com/" target="_blank">
-              <i class="fab fa-google"></i>
-            </a>
+        <!-- Navigation menu -->
+        <div class="header__navigation">
+          <nav class="header__links">
+            <a href="" class="header__link">Home</a>
+            <a href="" class="header__link">Explore <i class="fas fa-chevron-down"></i></a>
+            <a href="" class="header__link">Listings <i class="fas fa-chevron-down"></i></a>
+            <a href="" class="header__link">Destinations</a>
+            <a href="" class="header__link">Pages</a>
           </nav>
-          <button class="footer__button-up"><i class="fas fa-chevron-up"></i></button>
+          <!-- Add listing button -->
+          <button class="header__listing-button"><i class="fas fa-plus"></i>Add Listing</button>
+          <!-- Profile icon -->
+          <a href="" class="header__profile-link"><img src="/images/icon_user.png" alt="user profile" /></a>
+        </div>
+      </section>
+      <!-- Hero with form -->
+      <h2 class="header__title">Discover The City Gems</h2>
+      <p class="header__subtitle">Find great places to stay, eat, shop, or visit from local experts.</p>
+      <!-- Form -->
+      <form class="search">
+        <!-- Input + dropdown -->
+        <div class="search__dropdown">
+          <input type="text" class="search__input" placeholder="What are you looking for?" />
+          <i class="fas fa-caret-down search__dropdown-icon"></i>
+          <div class="search-results">
+            <div class="search-results__section">Featured</div>
+            <a href="" class="search-results__item">
+              <div class="search-results__icon round-icon round-icon_blue">
+                <img src="images/restaurant_small.svg" alt="">
+              </div>
+              Restaurants
+            </a>
+            <a href="" class="search-results__item">
+              <div class="search-results__icon round-icon round-icon_green">
+                <img src="images/art_history_small.svg" alt="">
+              </div>
+              Art &amp; History
+            </a>
+            <a href="" class="search-results__item">
+              <div class="search-results__icon round-icon round-icon_lime">
+                <img src="images/outdoor_small.svg" alt="">
+              </div>
+              Outdoor Activities
+            </a>
+            <a href="" class="search-results__item">
+              <div class="search-results__icon round-icon round-icon_violet">
+                <img src="images/cinema_small.svg" alt="">
+              </div>
+              Cinema
+            </a>
+            <a href="" class="search-results__item">
+              <div class="search-results__icon round-icon round-icon_pink">
+                <img src="images/nightlife_small.svg" alt="">
+              </div>
+              Nightlife
+            </a>
+          </div>
+        </div>
+        <!-- Search button -->
+        <button type="submit" class="search__button">Search <i class="fas fa-search search__button-icon"></i></button>
+      </form>
+
+      <section class="highlights">
+        <div class="highlights__header">
+          <p class="highlights__invitation">Or Browse The Highlights</p>
+          <img src="images/arrow_down.png" alt="highlights arrow down" class="highlights__arrow" />
+        </div>
+        <!-- Highlights icons -->
+        <div class="highlights__list">
+          <a class="highlight" href="#">
+            <div class="highlight__logo">
+              <div class="highlight__background"></div>
+              <img class="highlight__icon" src="images/nightlife.svg" alt="nightlife" />
+            </div>
+            <h3 class="highlight__title">Nightlife</h3>
+          </a>
+          <a class="highlight" href="#">
+            <div class="highlight__logo">
+              <div class="highlight__background"></div>
+              <img class="highlight__icon" src="images/hotels.svg" alt="hotels" />
+            </div>
+            <h3 class="highlight__title">Hotels</h3>
+          </a>
+
+          <a class="highlight" href="#">
+            <div class="highlight__logo">
+              <div class="highlight__background"></div>
+              <img class="highlight__icon" src="images/outdoor.svg" alt="outdoor" />
+            </div>
+            <h3 class="highlight__title">Outdoor Activities</h3>
+          </a>
+
+          <a class="highlight" href="#">
+            <div class="highlight__logo">
+              <div class="highlight__background"></div>
+              <img class="highlight__icon" src="images/shops.svg" alt="shops" />
+            </div>
+            <h3 class="highlight__title">Shops</h3>
+          </a>
+
+          <a class="highlight" href="#">
+            <div class="highlight__logo">
+              <div class="highlight__background"></div>
+              <img class="highlight__icon" src="images/restaurant.svg" alt="restaurant" />
+            </div>
+            <h3 class="highlight__title">Restaurant</h3>
+          </a>
+        </div>
+      </section>
+    </div>
+  </header>
+  <main>
+    <!-- =============== CITIES =============== -->
+    <section class="section cities">
+      <h2 class="section__title">Happening Cities</h2>
+      <p class="section__subtitle">Cities you must explore this summer</p>
+      <!-- Cities cards -->
+      <div class="container grid">
+        <div class="grid__col_md_6">
+          <div class="city-card">
+            <h3 class="city-card__title">Istanbul</h3>
+            <p class="city-card__subtitle">7 listings</p>
+          </div>
+        </div>
+        <div class="grid__col_md_3">
+          <div class="city-card">
+            <h3 class="city-card__title">Hon Kong</h3>
+          </div>
+        </div>
+        <div class="grid__col_md_3">
+          <div class="city-card">
+            <h3 class="city-card__title">New York</h3>
+          </div>
+        </div>
+        <div class="grid__col_md_3">
+          <div class="city-card">
+            <h3 class="city-card__title">Sydney</h3>
+          </div>
+        </div>
+        <div class="grid__col_md_3">
+          <div class="city-card">
+            <h3 class="city-card__title">Amsterdam</h3>
+          </div>
+        </div>
+        <div class="grid__col_md_6">
+          <div class="city-card">
+            <h3 class="city-card__title">London</h3>
+          </div>
         </div>
       </div>
-    </footer>
-  </body>
+    </section>
+    <!-- =============== PLACES =============== -->
+    <section class="section places">
+      <h2 class="section__title">Most Visited Places</h2>
+      <p class="section__subtitle">Explore the greates places in the city. You won’t be disappointed.</p>
+      <!-- List of Hotels and restaurants -->
+      <div class="container grid">
+        <div class="grid__col_md_4">
+          <div class="place-card">
+            <img src="" alt="" class="place-card__image" />
+            <div class="place-card__tags">
+              <p class="tag tag_blue place-card__tag">$10 $20</p>
+              <p class="tag tag_blue place-card__tag">Great place</p>
+            </div>
+            <p class="place-card__preview-link"><img src="images/preview.svg" alt="" /> Preview</p>
+            <p class="place-card__save-link">Save <img src="images/like.svg" alt="" /></p>
+            <h3 class="place-card__title">Hills Restaurant</h3>
+            <div class="place-card__subtitle">Delicious, luxury food for you</div>
+            <div class="place-card__details">
+              <span class="place-card__rating place-card__rating_good">4.5</span>
+              <p>3 Ratings</p>
+              <p class="place-card__delimiter"></p>
+              <img src="images/restaurant.png" alt="" />
+              <p>Restaurant</p>
+              <p class="place-card__delimiter"></p>
+              <p>Open</p>
+            </div>
+            <p class="place-card__location"><img src="images/placepoint.svg" alt="" /> Roma, Italy</p>
+            <p class="place-card__phone"><img src="images/phone.svg" alt="" /> + 44 20 456 823</p>
+          </div>
+        </div>
+        <div class="grid__col_md_4">
+          <div class="place-card">
+            <img src="" alt="" class="place-card__image" />
+            <p class="place-card__preview-link"><img src="images/preview.svg" alt="" /> Preview</p>
+            <p class="place-card__save-link">Save <img src="images/like.svg" alt="" /></p>
+            <h3 class="place-card__title">Urban Hotels</h3>
+            <div class="place-card__subtitle">Delicious, luxury food for you</div>
+            <div class="place-card__details">
+              <span class="place-card__rating place-card__rating_good">4.5</span>
+              <p>3 Ratings</p>
+              <p class="place-card__delimiter"></p>
+              <img src="images/restaurant.png" alt="" />
+              <p>Restaurant</p>
+              <p class="place-card__delimiter"></p>
+              <p>Open</p>
+            </div>
+            <p class="place-card__location"><img src="images/placepoint.svg" alt="" /> London, England</p>
+            <p class="place-card__phone"><img src="images/phone.svg" alt="" /> + 44 20 456 823</p>
+          </div>
+        </div>
+        <div class="grid__col_md_4">
+          <div class="place-card">
+            <img src="" alt="" class="place-card__image" />
+            <p class="place-card__preview-link"><img src="images/preview.svg" alt="" /> Preview</p>
+            <p class="place-card__save-link">Save <img src="images/like.svg" alt="" /></p>
+            <h3 class="place-card__title">Liberty Club</h3>
+            <div class="place-card__subtitle">Delicious, luxury food for you</div>
+            <div class="place-card__details">
+              <span class="place-card__rating place-card__rating_good">4.5</span>
+              <p>3 Ratings</p>
+              <p class="place-card__delimiter"></p>
+              <img src="images/restaurant.png" alt="" />
+              <p>Restaurant</p>
+              <p class="place-card__delimiter"></p>
+              <p>Open</p>
+            </div>
+            <p class="place-card__location"><img src="images/placepoint.svg" alt="" /> Istanbul, Turkey</p>
+            <p class="place-card__phone"><img src="images/phone.svg" alt="" /> + 44 20 456 823</p>
+          </div>
+        </div>
+      </div>
+      <!-- Buttons for list scroll -->
+      <div class="places__buttons">
+        <button class="places__button places__button_disabled"><i class="fas fa-chevron-left"></i></button>
+        <button class="places__button"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </section>
+
+    <!-- =============== HOW IT WORKS =============== -->
+    <section class="section activities">
+      <h2 class="section__title">See How It Works</h2>
+      <p class="section__subtitle">Discover & connect with great local businesses</p>
+      <!-- Activities list -->
+      <div class="container grid">
+        <div class="grid__col_md_4">
+          <div class="activity-card">
+            <img src="images/icon_calendar.png" alt="calendar" class="activity-card__icon" />
+            <h3 class="activity-card__title">Choose What To Do</h3>
+            <p class="activity-card__description">
+              Aliquam lorem ante, dapibus in, viverra quis, feugiat<br />
+              Phasellus viverra nulla ut <br />
+              metus varius laoreet.
+            </p>
+          </div>
+        </div>
+        <div class="grid__col_md_4">
+          <div class="activity-card">
+            <img src="images/icon_map.png" alt="map" class="activity-card__icon" />
+            <h3 class="activity-card__title">Find What You Want</h3>
+            <p class="activity-card__description">
+              Aliquam lorem ante, dapibus in, viverra quis, feugiat<br />
+              Phasellus viverra nulla ut <br />
+              metus varius laoreet.
+            </p>
+          </div>
+        </div>
+        <div class="grid__col_md_4">
+          <div class="activity-card">
+            <img src="images/icon_globe.png" alt="places on globe" class="activity-card__icon" />
+            <h3 class="activity-card__title">Amazing Places</h3>
+            <p class="activity-card__description">
+              Aliquam lorem ante, dapibus in, viverra quis, feugiat<br />
+              Phasellus viverra nulla ut <br />
+              metus varius laoreet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============== NEWS =============== -->
+    <section class="section news">
+      <h2 class="section__title">News & Tips</h2>
+      <p class="section__subtitle">Checkout latest news and articles from our blog</p>
+      <!-- News cards -->
+      <div class="container">
+        <div class="grid">
+          <div class="grid__col_md_4">
+            <div class="news-card">
+              <p class="news-card__date">January 18, 2018</p>
+              <h3 class="news-card__title">Making Coffee, since 1845. Coffee For All</h3>
+            </div>
+          </div>
+          <div class="grid__col_md_4">
+            <div class="news-card">
+              <div class="news-card__tags">
+                <p class="tag tag_blue news-card__tag">Lifestyle, News</p>
+                <p class="tag tag_blue news-card__tag">Lifestyle</p>
+                <p class="tag tag_blue news-card__tag">News</p>
+                <p class="tag tag_blue news-card__tag">Attractions</p>
+              </div>
+              <p class="news-card__date">February 25, 2018</p>
+              <h3 class="news-card__title">The Best Music For Your Entertainment</h3>
+            </div>
+          </div>
+          <div class="grid__col_md_4">
+            <div class="news-card">
+              <p class="news-card__date">April 04, 2018</p>
+              <h3 class="news-card__title">How to Wear a Headscarf Like a Gucci Muse</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =============== MAIN FOOTER =============== -->
+  <footer class="footer">
+    <!-- Main footer area -->
+    <div class="footer__grid container grid">
+      <a href="" class="logo grid__col_md_3">
+        <img src="images/logo.png" alt="" class="logo__brand" />
+        <p class="logo__title">Find&amp;Go</p>
+      </a>
+      <h3 class="footer__title grid__col_md_2">Pages</h3>
+      <h3 class="footer__title grid__col_md_2">The Highlights</h3>
+      <h3 class="footer__title grid__col_md_2">My Account</h3>
+      <h3 class="footer__title grid__col_md_3">Download App</h3>
+      <address class="footer__text grid__col_md_3">
+        Collins Street West, Victoria 8007, Australia.<br />
+        +1 246-345-0695 <br />
+        info@example.com
+      </address>
+      <nav class="footer__navigation grid__col_md_2 ">
+        <a href="" class="footer__text">Contact</a>
+        <a href="" class="footer__text">Events</a>
+        <a href="" class="footer__text">Members</a>
+        <a href="" class="footer__text">Blog</a>
+        <a href="" class="footer__text">Services</a>
+      </nav>
+      <nav class="footer__navigation grid__col_md_2">
+        <a href="" class="footer__text">Dinner</a>
+        <a href="" class="footer__text">Restaurants</a>
+        <a href="" class="footer__text">Hotel</a>
+        <a href="" class="footer__text">Coffee</a>
+        <a href="" class="footer__text">Club &amp; bar</a>
+      </nav>
+      <nav class="footer__navigation grid__col_md_2">
+        <a href="" class="footer__text">Dashboard</a>
+        <a href="" class="footer__text">Listings</a>
+        <a href="" class="footer__text">Events</a>
+        <a href="" class="footer__text">Favorites</a>
+        <a href="" class="footer__text">Cart</a>
+      </nav>
+      <div class="footer__navigation grid__col_md_3 footer__storecards">
+        <a href="" class="storecard">
+          <img src="images/apple.svg" alt="App Store" class="storecard__icon" />
+          <p class="storecard__title">App Store</p>
+          <p class="storecard__subtitle">Available now on the</p>
+        </a>
+        <a href="" class="storecard">
+          <img src="images/google-play.svg" alt="Google Play" class="storecard__icon" />
+          <p class="storecard__title">Google Play</p>
+          <p class="storecard__subtitle">Get it on</p>
+        </a>
+      </div>
+    </div>
+    <!-- Low footer row -->
+    <div class="footer__bottom">
+      <div class="footer__content container">
+        <div class="footer__text">&copy; 2018 Find&Go All rights reserved. Design by Creative Layers</div>
+        <nav class="footer__social-icons">
+          <a class="footer__social-icon" href="https://www.facebook.com" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a class="footer__social-icon footer__social-icon_active" href="https://twitter.com/" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a class="footer__social-icon" href="https://www.instagram.com/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a class="footer__social-icon" href="https://www.pinterest.ru/" target="_blank">
+            <i class="fab fa-pinterest"></i>
+          </a>
+          <a class="footer__social-icon" href="https://dribbble.com/" target="_blank">
+            <i class="fab fa-dribbble"></i>
+          </a>
+          <a class="footer__social-icon" href="https://myaccount.google.com/" target="_blank">
+            <i class="fab fa-google"></i>
+          </a>
+        </nav>
+        <button class="footer__button-up"><i class="fas fa-chevron-up"></i></button>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>

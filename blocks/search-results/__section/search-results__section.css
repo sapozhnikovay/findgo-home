@@ -1,0 +1,14 @@
+.search-results__section {
+  font-size: 13px;
+  line-height: 35px;
+  font-weight: 400;
+  color: #67676f;
+
+  height: 40px;
+  background-color: #fafafa;
+  border-radius: 0px 0px 2px 2px;
+
+  margin: 0 -23px;
+  padding-left: 23px;
+  text-align: left;
+}

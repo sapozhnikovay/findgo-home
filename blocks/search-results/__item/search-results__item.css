@@ -1,0 +1,9 @@
+.search-results__item {
+  font-size: 13px;
+  font-weight: 400;
+  color: #67676f;
+
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
