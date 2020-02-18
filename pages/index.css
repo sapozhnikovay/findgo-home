@@ -1,4 +1,9 @@
 @import url(../assets/styles/normalize.css);
 @import url(../blocks/grid/grid.css);
+@import url(../blocks/container/container.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/storecard/storecard.css);
+@import url(../blocks/news/news.css);
+@import url(../blocks/section/section.css);
+@import url(../blocks/news-card/news-card.css);
+@import url(../blocks/tag/tag.css);

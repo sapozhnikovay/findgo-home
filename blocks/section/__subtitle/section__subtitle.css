@@ -1,0 +1,9 @@
+.section__subtitle {
+  font-family: 'Rubik';
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #8d8d8d;
+  margin-bottom: 40px;
+  text-align: center;
+}

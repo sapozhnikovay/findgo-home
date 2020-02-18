@@ -1,0 +1,9 @@
+.section__title {
+  font-family: 'DIN Pro';
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #242423;
+  margin-bottom: 20px;
+  text-align: center;
+}

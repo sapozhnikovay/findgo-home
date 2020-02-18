@@ -1,0 +1,8 @@
+.news-card__date {
+  grid-area: date;
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-bottom: 15px;
+  text-align: left;
+}

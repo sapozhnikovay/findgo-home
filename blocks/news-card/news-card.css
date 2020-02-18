@@ -1,0 +1,18 @@
+@import url(./__date/news-card__date.css);
+@import url(./__tags/news-card__tags.css);
+@import url(./__tag/news-card__tag.css);
+@import url(./__title/news-card__title.css);
+
+.news-card {
+  height: 400px;
+  background-color: #323031;
+  border-radius: 2px;
+  color: #ffffff;
+  padding: 30px;
+
+  display: grid;
+  grid-template:
+    'tags' 1fr
+    'date' auto
+    'title' auto;
+}

@@ -1,0 +1,10 @@
+.news-card__tags {
+  grid-area: tags;
+  align-self: flex-start;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
