@@ -1,0 +1,10 @@
+.storecard__title {
+  grid-area: title;
+  align-self: flex-end;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0;
+  width: 156px;
+}

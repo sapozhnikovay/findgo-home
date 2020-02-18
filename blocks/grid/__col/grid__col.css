@@ -1,0 +1,208 @@
+[class^='col-'] {
+  -ms-grid-column-span: 12;
+  grid-column-end: span 12;
+}
+
+@media (min-width: 0) {
+  .grid__col_xs_1 {
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+  .grid__col_xs_2 {
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
+  .grid__col_xs_3 {
+    -ms-grid-column-span: 3;
+    grid-column-end: span 3;
+  }
+  .grid__col_xs_4 {
+    -ms-grid-column-span: 4;
+    grid-column-end: span 4;
+  }
+  .grid__col_xs_5 {
+    -ms-grid-column-span: 5;
+    grid-column-end: span 5;
+  }
+  .grid__col_xs_6 {
+    -ms-grid-column-span: 6;
+    grid-column-end: span 6;
+  }
+  .grid__col_xs_7 {
+    -ms-grid-column-span: 7;
+    grid-column-end: span 7;
+  }
+  .grid__col_xs_8 {
+    -ms-grid-column-span: 8;
+    grid-column-end: span 8;
+  }
+  .grid__col_xs_9 {
+    -ms-grid-column-span: 9;
+    grid-column-end: span 9;
+  }
+  .grid__col_xs_10 {
+    -ms-grid-column-span: 10;
+    grid-column-end: span 10;
+  }
+  .grid__col_xs_11 {
+    -ms-grid-column-span: 11;
+    grid-column-end: span 11;
+  }
+  .grid__col_xs_12 {
+    -ms-grid-column-span: 12;
+    grid-column-end: span 12;
+  }
+}
+
+@media (min-width: 768px) {
+  .grid__col_sm_1 {
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+  .grid__col_sm_2 {
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
+  .grid__col_sm_3 {
+    -ms-grid-column-span: 3;
+    grid-column-end: span 3;
+  }
+  .grid__col_sm_4 {
+    -ms-grid-column-span: 4;
+    grid-column-end: span 4;
+  }
+  .grid__col_sm_5 {
+    -ms-grid-column-span: 5;
+    grid-column-end: span 5;
+  }
+  .grid__col_sm_6 {
+    -ms-grid-column-span: 6;
+    grid-column-end: span 6;
+  }
+  .grid__col_sm_7 {
+    -ms-grid-column-span: 7;
+    grid-column-end: span 7;
+  }
+  .grid__col_sm_8 {
+    -ms-grid-column-span: 8;
+    grid-column-end: span 8;
+  }
+  .grid__col_sm_9 {
+    -ms-grid-column-span: 9;
+    grid-column-end: span 9;
+  }
+  .grid__col_sm_10 {
+    -ms-grid-column-span: 10;
+    grid-column-end: span 10;
+  }
+  .grid__col_sm_11 {
+    -ms-grid-column-span: 11;
+    grid-column-end: span 11;
+  }
+  .grid__col_sm_12 {
+    -ms-grid-column-span: 12;
+    grid-column-end: span 12;
+  }
+}
+
+@media (min-width: 992px) {
+  .grid__col_md_1 {
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+  .grid__col_md_2 {
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
+  .grid__col_md_3 {
+    -ms-grid-column-span: 3;
+    grid-column-end: span 3;
+  }
+  .grid__col_md_4 {
+    -ms-grid-column-span: 4;
+    grid-column-end: span 4;
+  }
+  .grid__col_md_5 {
+    -ms-grid-column-span: 5;
+    grid-column-end: span 5;
+  }
+  .grid__col_md_6 {
+    -ms-grid-column-span: 6;
+    grid-column-end: span 6;
+  }
+  .grid__col_md_7 {
+    -ms-grid-column-span: 7;
+    grid-column-end: span 7;
+  }
+  .grid__col_md_8 {
+    -ms-grid-column-span: 8;
+    grid-column-end: span 8;
+  }
+  .grid__col_md_9 {
+    -ms-grid-column-span: 9;
+    grid-column-end: span 9;
+  }
+  .grid__col_md_10 {
+    -ms-grid-column-span: 10;
+    grid-column-end: span 10;
+  }
+  .grid__col_md_11 {
+    -ms-grid-column-span: 11;
+    grid-column-end: span 11;
+  }
+  .grid__col_md_12 {
+    -ms-grid-column-span: 12;
+    grid-column-end: span 12;
+  }
+}
+
+@media (min-width: 1200px) {
+  .grid__col_lg_1 {
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+  .grid__col_lg_2 {
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
+  .grid__col_lg_3 {
+    -ms-grid-column-span: 3;
+    grid-column-end: span 3;
+  }
+  .grid__col_lg_4 {
+    -ms-grid-column-span: 4;
+    grid-column-end: span 4;
+  }
+  .grid__col_lg_5 {
+    -ms-grid-column-span: 5;
+    grid-column-end: span 5;
+  }
+  .grid__col_lg_6 {
+    -ms-grid-column-span: 6;
+    grid-column-end: span 6;
+  }
+  .grid__col_lg_7 {
+    -ms-grid-column-span: 7;
+    grid-column-end: span 7;
+  }
+  .grid__col_lg_8 {
+    -ms-grid-column-span: 8;
+    grid-column-end: span 8;
+  }
+  .grid__col_lg_9 {
+    -ms-grid-column-span: 9;
+    grid-column-end: span 9;
+  }
+  .grid__col_lg_10 {
+    -ms-grid-column-span: 10;
+    grid-column-end: span 10;
+  }
+  .grid__col_lg_11 {
+    -ms-grid-column-span: 11;
+    grid-column-end: span 11;
+  }
+  .grid__col_lg_12 {
+    -ms-grid-column-span: 12;
+    grid-column-end: span 12;
+  }
+}

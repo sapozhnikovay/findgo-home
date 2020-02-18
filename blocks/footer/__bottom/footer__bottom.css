@@ -1,0 +1,8 @@
+.footer__bottom {
+  font-size: 13px;
+  line-height: 30px;
+  font-weight: 400;
+
+  background-color: #000000;
+  position: relative;
+}

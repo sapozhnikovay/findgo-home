@@ -1,0 +1,15 @@
+@import url(./__icon/storecard__icon.css);
+@import url(./__subtitle/storecard__subtitle.css);
+@import url(./__title/storecard__title.css);
+
+.storecard {
+  display: grid;
+  grid-template-areas:
+    'icon title'
+    'icon subtitle';
+  width: 232px;
+  height: 75px;
+  border: 1px solid #2b2b2d;
+  border-radius: 2px;
+  box-sizing: border-box;
+}

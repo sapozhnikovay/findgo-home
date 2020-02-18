@@ -1,0 +1,13 @@
+.logo__title {
+  font-size: 30px;
+  font-family: 'Barlow', sans-serif;
+  margin: 0;
+  color: #fff;
+}
+
+.logo__title ::after {
+  content: '\2024';
+  color: #fb3640;
+  font-size: 48px;
+  line-height: 30px;
+}

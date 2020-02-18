@@ -1,0 +1,6 @@
+.footer__storecards {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 32px;
+  margin-top: 12px;
+}

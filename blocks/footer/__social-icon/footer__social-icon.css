@@ -1,0 +1,8 @@
+.footer__social-icon {
+  display: block;
+  margin-left: 24px;
+}
+
+.footer__social-icon_active {
+  color: #ffffff;
+}

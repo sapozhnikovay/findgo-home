@@ -1,0 +1,13 @@
+.footer__button-up {
+  position: absolute;
+  top: -18px;
+  right: 58px;
+
+  margin: auto;
+
+  width: 36px;
+  height: 36px;
+  background: #fb3640;
+  border: none;
+  border-radius: 50%;
+}

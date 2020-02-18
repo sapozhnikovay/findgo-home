@@ -1,0 +1,16 @@
+@import url(./__grid/footer__grid.css);
+@import url(./__bottom/footer__bottom.css);
+@import url(./__title/footer__title.css);
+@import url(./__navigation/footer__navigation.css);
+@import url(./__text/footer__text.css);
+@import url(./__storecards/footer__storecards.css);
+@import url(./__social-icons/footer__social-icons.css);
+@import url(./__content/footer__content.css);
+@import url(./__social-icon/footer__social-icon.css);
+@import url(./__button-up/footer__button-up.css);
+
+.footer {
+  margin: auto;
+  background-color: #0f0f10;
+  color: #8d8d8d;
+}
