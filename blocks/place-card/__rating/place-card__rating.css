@@ -1,0 +1,12 @@
+.place-card__rating {
+  border-radius: 2px;
+  padding: 2px 4px 1px 5px;
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.place-card__rating_good {
+  background-color: #b4c52c;
+}

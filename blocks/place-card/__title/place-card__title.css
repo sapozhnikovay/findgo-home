@@ -1,0 +1,6 @@
+.place-card__title {
+  font-size: 18px;
+  color: #242423;
+  grid-area: title;
+  padding-top: 18px;
+}

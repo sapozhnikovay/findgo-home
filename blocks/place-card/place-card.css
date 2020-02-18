@@ -1,0 +1,30 @@
+@import url(./__image/place-card__image.css);
+@import url(./__subtitle/place-card__subtitle.css);
+@import url(./__title/place-card__title.css);
+@import url(./__tags/place-card__tags.css);
+@import url(./__tag/place-card__tag.css);
+@import url(./__rating/place-card__rating.css);
+@import url(./__details/place-card__details.css);
+@import url(./__preview-link/place-card__preview-link.css);
+@import url(./__save-link/place-card__save-link.css);
+@import url(./__location/place-card__location.css);
+@import url(./__phone/place-card__phone.css);
+@import url(./__delimiter/place-card__delimiter.css);
+
+.place-card {
+  position: relative;
+  display: grid;
+  grid-template:
+    'tags tags' 160px
+    'preview save' 40px
+    'title title' 38px
+    'subtitle subtitle' 30px
+    'details details' auto
+    'location phone' 22px;
+
+  height: 384px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.02);
+  padding: 20px 20px 14px;
+}

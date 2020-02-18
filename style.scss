@@ -214,51 +214,6 @@ h6 {
   }
 }
 
-.cities {
-  padding-bottom: 60px;
-
-  &-row:not(:last-child) {
-    margin-bottom: 30px;
-  }
-  &-item {
-    height: 250px;
-    background-color: #242423;
-    border-radius: 2px;
-    color: #ffffff;
-    padding: 24px 30px;
-    text-align: left;
-    &__title {
-      font-size: 24px;
-      font-weight: normal;
-    }
-    &__subtitle {
-    }
-  }
-}
-
-.section {
-  padding-top: 60px;
-
-  &__title {
-    font-family: "DIN Pro";
-    font-size: 30px;
-    line-height: 1.2;
-    font-weight: 500;
-    color: #242423;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-
-  &__subtitle {
-    font-family: Rubik;
-    font-size: 15px;
-    line-height: 1.2;
-    font-weight: 400;
-    color: #8d8d8d;
-    margin-bottom: 40px;
-    text-align: center;
-  }
-}
 
 .footer {
   color: #8d8d8d;
@@ -398,18 +353,6 @@ h6 {
   }
 }
 
-.tag {
-  height: 30px;
-  background-color: #28b8dc;
-  border-radius: 15px;
-  font-family: "Rubik";
-  font-size: 13px;
-  line-height: 1.2;
-  font-weight: 400;
-  color: #ffffff;
-  margin: 0;
-  padding: 8px 16px;
-}
 
 .download-app-card {
   width: 232px;

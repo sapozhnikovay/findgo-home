@@ -1,0 +1,11 @@
+.place-card__tags {
+  grid-area: tags;
+  justify-self: flex-end;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  z-index: 1;
+}

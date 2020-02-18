@@ -1,4 +1,4 @@
-@import url(../assets/styles/normalize.css);
+@import url(../vendor/normalize.css);
 @import url(../blocks/grid/grid.css);
 @import url(../blocks/container/container.css);
 @import url(../blocks/footer/footer.css);
@@ -7,4 +7,20 @@
 @import url(../blocks/section/section.css);
 @import url(../blocks/news-card/news-card.css);
 @import url(../blocks/tag/tag.css);
+@import url(../blocks/cities/cities.css);
 @import url(../blocks/city-card/city-card.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/place-card/place-card.css);
+
+body *{
+  box-sizing: border-box;
+}
+
+p {
+  margin-bottom: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}

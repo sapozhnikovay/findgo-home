@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow|Rubik:300,400&display=swap" />
-    <link rel="stylesheet" href="assets/webfonts/DINPro/stylesheet.css" />
 
     <!-- Styles -->
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="assets/styles/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/styles/all.css" />
+    <!-- <link rel="stylesheet" href="assets/styles/bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="vendor/fonts.css" />
+    <link rel="stylesheet" href="vendor/fontawesome.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="pages/index.css" />
     <title>Find&amp;Go</title>
@@ -20,7 +20,7 @@
   <body>
     <header class="header">
       <div class="container">
-        <section class="row d-flex justify-content-between align-items-center">
+        <section class="">
           <!-- Logo -->
           <div class="logo">
             <img src="assets/img/logo.png" alt="" class="logo__brand" />
@@ -42,7 +42,7 @@
           </nav>
         </section>
         <!-- Hero with form -->
-        <section class="row d-flex flex-column align-items-center search-area">
+        <section class="search-area">
           <h2 class="search-area__title">Discover The City Gems</h2>
           <p class="search-area__subtitle">Find great places to stay, eat, shop, or visit from local experts.</p>
           <!-- Form -->
@@ -103,186 +103,155 @@
         <h2 class="section__title">Happening Cities</h2>
         <p class="section__subtitle">Cities you must explore this summer</p>
         <!-- Cities cards -->
-        <div class="container">
-          <div class="grid">
-            <div class="grid__col_md_6">
-              <div class="city-card">
-                <h3 class="city-card__title">Istanbul</h3>
-                <p class="city-card__subtitle">7 listings</p>
-              </div>
+        <div class="container grid">
+          <div class="grid__col_md_6">
+            <div class="city-card">
+              <h3 class="city-card__title">Istanbul</h3>
+              <p class="city-card__subtitle">7 listings</p>
             </div>
-            <div class="grid__col_md_3">
-              <div class="city-card">
-                <h3 class="city-card__title">Hon Kong</h3>
-              </div>
+          </div>
+          <div class="grid__col_md_3">
+            <div class="city-card">
+              <h3 class="city-card__title">Hon Kong</h3>
             </div>
-            <div class="grid__col_md_3">
-              <div class="city-card">
-                <h3 class="city-card__title">New York</h3>
-              </div>
+          </div>
+          <div class="grid__col_md_3">
+            <div class="city-card">
+              <h3 class="city-card__title">New York</h3>
             </div>
-            <div class="grid__col_md_3">
-              <div class="city-card">
-                <h3 class="city-card__title">Sydney</h3>
-              </div>
+          </div>
+          <div class="grid__col_md_3">
+            <div class="city-card">
+              <h3 class="city-card__title">Sydney</h3>
             </div>
-            <div class="grid__col_md_3">
-              <div class="city-card">
-                <h3 class="city-card__title">Amsterdam</h3>
-              </div>
+          </div>
+          <div class="grid__col_md_3">
+            <div class="city-card">
+              <h3 class="city-card__title">Amsterdam</h3>
             </div>
-            <div class="grid__col_md_6">
-              <div class="city-card">
-                <h3 class="city-card__title">London</h3>
-              </div>
+          </div>
+          <div class="grid__col_md_6">
+            <div class="city-card">
+              <h3 class="city-card__title">London</h3>
             </div>
           </div>
         </div>
       </section>
       <!-- =============== PLACES =============== -->
       <section class="section places">
-        <div class="container">
-          <h2 class="section__title">Most Visited Places</h2>
-          <p class="section__subtitle">Explore the greates places in the city. You won’t be disappointed.</p>
-          <!-- List of Hotels and restaurants -->
-          <div class="row">
-            <div class="col-4">
-              <div class="place-card">
-                <div class="place-card__preview">
-                  <div class="place-card__preview-tags"></div>
-                  <div class="place-card__preview-row">
-                    <p><i></i>Preview</p>
-                    <p>Save<i></i></p>
-                  </div>
-                </div>
-                <div class="place-card__content">
-                  <div class="place-card__details">
-                    <h3 class="place-card__title">Hills Restaurant</h3>
-                    <div class="place-card__subtitle">Delicious, luxury food for you</div>
-                    <div class="place-card__properties">
-                      <span class="place-card__rating place-card__rating_good">4.5</span>
-                      <p>3 Ratings</p>
-                      <p class="place-card__properties-delimiter"></p>
-                      <p><i></i>Restaurant</p>
-                      <p class="place-card__properties-delimiter"></p>
-                      <p>Open</p>
-                    </div>
-                  </div>
-                  <div class="place-card__contacts">
-                    <div><i></i> Roma, Italy</div>
-                    <div><i></i> + 44 20 456 823</div>
-                  </div>
-                </div>
+        <h2 class="section__title">Most Visited Places</h2>
+        <p class="section__subtitle">Explore the greates places in the city. You won’t be disappointed.</p>
+        <!-- List of Hotels and restaurants -->
+        <div class="container grid">
+          <div class="grid__col_md_4">
+            <div class="place-card">
+              <img src="" alt="" class="place-card__image" />
+              <div class="place-card__tags">
+                <p class="tag tag_blue place-card__tag">$10 $20</p>
+                <p class="tag tag_blue place-card__tag">Great place</p>
               </div>
-            </div>
-            <div class="col-4">
-              <div class="place-card">
-                <div class="place-card__preview">
-                  <div class="place-card__preview-tags"></div>
-                  <div class="place-card__preview-row">
-                    <p><i></i>Preview</p>
-                    <p>Save<i></i></p>
-                  </div>
-                </div>
-                <div class="place-card__content">
-                  <div class="place-card__details">
-                    <h3 class="place-card__title">Urban Hotels</h3>
-                    <div class="place-card__subtitle">Delicious, luxury food for you</div>
-                    <div class="place-card__properties">
-                      <span class="place-card__rating place-card__rating_good">4.5</span>
-                      <p>3 Ratings</p>
-                      <p class="place-card__properties-delimiter"></p>
-                      <p><i></i>Restaurant</p>
-                      <p class="place-card__properties-delimiter"></p>
-                      <p>Closed</p>
-                    </div>
-                  </div>
-                  <div class="place-card__contacts">
-                    <div><i></i> London, England</div>
-                    <div><i></i> + 44 20 456 823</div>
-                  </div>
-                </div>
+              <p class="place-card__preview-link"><img src="assets/img/preview.svg" alt="" /> Preview</p>
+              <p class="place-card__save-link">Save <img src="assets/img/like.svg" alt="" /></p>
+              <h3 class="place-card__title">Hills Restaurant</h3>
+              <div class="place-card__subtitle">Delicious, luxury food for you</div>
+              <div class="place-card__details">
+                <span class="place-card__rating place-card__rating_good">4.5</span>
+                <p>3 Ratings</p>
+                <p class="place-card__delimiter"></p>
+                <img src="assets/img/restaurant.png" alt="" />
+                <p>Restaurant</p>
+                <p class="place-card__delimiter"></p>
+                <p>Open</p>
               </div>
-            </div>
-            <div class="col-4">
-              <div class="place-card">
-                <div class="place-card__preview">
-                  <div class="place-card__preview-tags">
-                    <p class="tag">$10 $20</p>
-                  </div>
-                  <div class="place-card__preview-row">
-                    <p><i></i>Preview</p>
-                    <p>Save<i></i></p>
-                  </div>
-                </div>
-                <div class="place-card__content">
-                  <div class="place-card__details">
-                    <h3 class="place-card__title">Liberty Club</h3>
-                    <div class="place-card__subtitle">Delicious, luxury food for you</div>
-                    <div class="place-card__properties">
-                      <span class="place-card__rating place-card__rating_good">4.5</span>
-                      <p>3 Ratings</p>
-                      <p class="place-card__properties-delimiter"></p>
-                      <p><i></i>Restaurant</p>
-                      <p class="place-card__properties-delimiter"></p>
-                      <p>Open</p>
-                    </div>
-                  </div>
-                  <div class="place-card__contacts">
-                    <div><i></i> Istanbul, Turkey</div>
-                    <div><i></i> + 44 20 456 823</div>
-                  </div>
-                </div>
-              </div>
+              <p class="place-card__location"><img src="assets/img/placepoint.svg" alt="" /> Roma, Italy</p>
+              <p class="place-card__phone"><img src="assets/img/phone.svg" alt="" /> + 44 20 456 823</p>
             </div>
           </div>
-          <!-- Buttons for list scroll -->
-          <div class="places__buttons">
-            <button class="places__button places__button_disabled"><i class="fas fa-chevron-left"></i></button>
-            <button class="places__button"><i class="fas fa-chevron-right"></i></button>
+          <div class="grid__col_md_4">
+            <div class="place-card">
+              <img src="" alt="" class="place-card__image" />
+              <p class="place-card__preview-link"><img src="assets/img/preview.svg" alt="" /> Preview</p>
+              <p class="place-card__save-link">Save <img src="assets/img/like.svg" alt="" /></p>
+              <h3 class="place-card__title">Urban Hotels</h3>
+              <div class="place-card__subtitle">Delicious, luxury food for you</div>
+              <div class="place-card__details">
+                <span class="place-card__rating place-card__rating_good">4.5</span>
+                <p>3 Ratings</p>
+                <p class="place-card__delimiter"></p>
+                <img src="assets/img/restaurant.png" alt="" />
+                <p>Restaurant</p>
+                <p class="place-card__delimiter"></p>
+                <p>Open</p>
+              </div>
+              <p class="place-card__location"><img src="assets/img/placepoint.svg" alt="" /> London, England</p>
+              <p class="place-card__phone"><img src="assets/img/phone.svg" alt="" /> + 44 20 456 823</p>
+            </div>
           </div>
+          <div class="grid__col_md_4">
+            <div class="place-card">
+              <img src="" alt="" class="place-card__image" />
+              <p class="place-card__preview-link"><img src="assets/img/preview.svg" alt="" /> Preview</p>
+              <p class="place-card__save-link">Save <img src="assets/img/like.svg" alt="" /></p>
+              <h3 class="place-card__title">Liberty Club</h3>
+              <div class="place-card__subtitle">Delicious, luxury food for you</div>
+              <div class="place-card__details">
+                <span class="place-card__rating place-card__rating_good">4.5</span>
+                <p>3 Ratings</p>
+                <p class="place-card__delimiter"></p>
+                <img src="assets/img/restaurant.png" alt="" />
+                <p>Restaurant</p>
+                <p class="place-card__delimiter"></p>
+                <p>Open</p>
+              </div>
+              <p class="place-card__location"><img src="assets/img/placepoint.svg" alt="" /> Istanbul, Turkey</p>
+              <p class="place-card__phone"><img src="assets/img/phone.svg" alt="" /> + 44 20 456 823</p>
+            </div>
+          </div>
+        </div>
+        <!-- Buttons for list scroll -->
+        <div class="places__buttons">
+          <button class="places__button places__button_disabled"><i class="fas fa-chevron-left"></i></button>
+          <button class="places__button"><i class="fas fa-chevron-right"></i></button>
         </div>
       </section>
 
       <!-- =============== HOW IT WORKS =============== -->
       <section class="section activities">
-        <div class="container ">
-          <h2 class="section__title">See How It Works</h2>
-          <p class="section__subtitle">Discover & connect with great local businesses</p>
-          <!-- Activities list -->
-          <div class="row">
-            <div class="col-4">
-              <div class="activity-card">
-                <img src="assets/img/icon_calendar.png" alt="" class="activity-card__icon" />
-                <h3 class="activity-card__title">Choose What To Do</h3>
-                <p class="activity-card__description">
-                  Aliquam lorem ante, dapibus in, viverra quis, feugiat<br />
-                  Phasellus viverra nulla ut <br />
-                  metus varius laoreet.
-                </p>
-              </div>
+        <h2 class="section__title">See How It Works</h2>
+        <p class="section__subtitle">Discover & connect with great local businesses</p>
+        <!-- Activities list -->
+        <div class="container grid">
+          <div class="grid__col_md_4">
+            <div class="activity-card">
+              <img src="assets/img/icon_calendar.png" alt="" class="activity-card__icon" />
+              <h3 class="activity-card__title">Choose What To Do</h3>
+              <p class="activity-card__description">
+                Aliquam lorem ante, dapibus in, viverra quis, feugiat<br />
+                Phasellus viverra nulla ut <br />
+                metus varius laoreet.
+              </p>
             </div>
-            <div class="col-4">
-              <div class="activity-card">
-                <img src="assets/img/icon_map.png" alt="" class="activity-card__icon" />
-                <h3 class="activity-card__title">Find What You Want</h3>
-                <p class="activity-card__description">
-                  Aliquam lorem ante, dapibus in, viverra quis, feugiat<br />
-                  Phasellus viverra nulla ut <br />
-                  metus varius laoreet.
-                </p>
-              </div>
+          </div>
+          <div class="grid__col_md_4">
+            <div class="activity-card">
+              <img src="assets/img/icon_map.png" alt="" class="activity-card__icon" />
+              <h3 class="activity-card__title">Find What You Want</h3>
+              <p class="activity-card__description">
+                Aliquam lorem ante, dapibus in, viverra quis, feugiat<br />
+                Phasellus viverra nulla ut <br />
+                metus varius laoreet.
+              </p>
             </div>
-            <div class="col-4">
-              <div class="activity-card">
-                <img src="assets/img/icon_globe.png" alt="" class="activity-card__icon" />
-                <h3 class="activity-card__title">Amazing Places</h3>
-                <p class="activity-card__description">
-                  Aliquam lorem ante, dapibus in, viverra quis, feugiat<br />
-                  Phasellus viverra nulla ut <br />
-                  metus varius laoreet.
-                </p>
-              </div>
+          </div>
+          <div class="grid__col_md_4">
+            <div class="activity-card">
+              <img src="assets/img/icon_globe.png" alt="" class="activity-card__icon" />
+              <h3 class="activity-card__title">Amazing Places</h3>
+              <p class="activity-card__description">
+                Aliquam lorem ante, dapibus in, viverra quis, feugiat<br />
+                Phasellus viverra nulla ut <br />
+                metus varius laoreet.
+              </p>
             </div>
           </div>
         </div>

@@ -1,0 +1,16 @@
+.place-card__details {
+  grid-area: details;
+  align-self: flex-start;
+
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #28b8dc;
+  padding-top: 4px;
+}
+
+.place-card__details * {
+  margin-right: 10px;
+}

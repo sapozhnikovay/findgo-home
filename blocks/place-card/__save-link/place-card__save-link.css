@@ -1,0 +1,18 @@
+.place-card__save-link {
+  grid-area: save;
+  justify-self: flex-end;
+  align-self: center;
+
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #fefefe;
+  z-index: 1;
+
+  display: flex;
+  align-items: center;
+}
+
+.place-card__save-link > * {
+  margin-left: 10px;
+}
