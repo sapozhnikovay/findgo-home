@@ -1,0 +1,9 @@
+@import url(./__description/activity-card__description.css);
+@import url(./__icon/activity-card__icon.css);
+@import url(./__title/activity-card__title.css);
+
+.activity-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,3 +1,6 @@
+@import url(./__button/places__button.css);
+@import url(./__buttons/places__buttons.css);
+
 .places {
   background-color: #f8fafa;
   padding-top: 52px;

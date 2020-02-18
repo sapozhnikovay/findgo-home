@@ -16,8 +16,15 @@
 @import url(../blocks/highlights/highlights.css);
 @import url(../blocks/highlight/highlight.css);
 @import url(../blocks/search/search.css);
+@import url(../blocks/activities/activities.css);
+@import url(../blocks/activity-card/activity-card.css);
 
-body *{
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+}
+
+body * {
   box-sizing: border-box;
 }
 
@@ -36,4 +43,16 @@ a {
 
 a:visited {
   color: unset;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'DIN Pro';
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0;
 }

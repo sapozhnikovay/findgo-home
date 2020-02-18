@@ -1,0 +1,6 @@
+.places__buttons {
+  padding-top: 50px;
+  padding-bottom: 35px;
+  display: flex;
+  justify-content: center;
+}
