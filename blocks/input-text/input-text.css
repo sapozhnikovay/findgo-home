@@ -10,26 +10,12 @@
   line-height: 1.2;
   font-weight: 400;
   color: #8d8d8d;
-  
+
   margin-top: 20px;
 }
 
-.input-text input[type='text'] {
-  height: 50px;
-  background-color: #ffffff;
-  border: 1px solid #eaeaea;
-  border-radius: 2px;
-
-  padding-left: 17px;
-}
-.input-text input[type='password'] {
-  height: 50px;
-  background-color: #ffffff;
-  border: 1px solid #eaeaea;
-  border-radius: 2px;
-
-  padding-left: 17px;
-}
+.input-text input[type='text'],
+.input-text input[type='password'],
 .input-text input[type='email'] {
   height: 50px;
   background-color: #ffffff;
