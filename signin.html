@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="City Guide" />
+    <meta name="keywords" content="HTML5, CSS, Javascript" />
+    <meta name="author" content="Alexey Sapozhnikov" />
+    <!-- Favicon -->
+    <link rel="icon" sizes="any" type="image/svg+xml" href="./image/favicon.svg" />
+    <link rel="icon" type="image/png" href="./image/icon.png" />
+
+    <title>Find&amp;Go</title>
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow|Rubik:300,400&display=swap" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="vendor/fonts.css" />
+    <link rel="stylesheet" href="vendor/fontawesome.css" />
+    <link rel="stylesheet" href="pages/index.css" />
+  </head>
+
+  <body>
+    <!-- ========= SIGN IN | SIGN UP modal ========== -->
+    <section>
+      <div class="modal__backdrop"></div>
+      <div class="modal" role="dialog">
+        <button class="modal__close"><i class="fas fa-times modal__close-icon"></i></button>
+        <div class="modal__tabs">
+          <a href="" class="modal__tab modal__tab_active">Sign In</a>
+          <a href="" class="modal__tab">Sign Up</a>
+        </div>
+        <div class="modal__content">
+          <form action="" class="signin-form">
+            <div class="input-text">
+              <label for="username" class="input-text__label">Username or Email Address *</label>
+              <input type="text" id="username" />
+            </div>
+            <div class="input-text">
+              <label for="password" class="input-text__label">Password</label>
+              <input type="password" id="password" />
+            </div>
+            <div class="signin-form__remember">
+              <div class="input-checkbox">
+                <input type="checkbox" id="rememberme" />
+                <label for="rememberme" class="input-checkbox__label">Remember me?</label>
+              </div>
+              <a href="" class="signin-form__link">Lost your password</a>
+            </div>
+            <button type="submit" class="button button_blue">Sign In</button>
+          </form>
+          <p>Or Connect With Social Networks</p>
+          <div class="signin-form__social-buttons">
+            <button type="button" class="icon-button icon-button_darkblue">
+              <i class="fab fa-facebook-f"></i>
+            </button>
+            <button type="button" class="icon-button icon-button_blue">
+              <i class="fab fa-twitter"></i>
+            </button>
+            <button type="button" class="icon-button icon-button_red">
+              <i class="fab fa-google"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
