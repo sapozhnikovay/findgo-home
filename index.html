@@ -26,7 +26,7 @@
     <!-- ========= SIGN IN | SIGN UP modal ========== -->
     <section>
       <div class="modal__backdrop"></div>
-      <div class="modal" role="dialog" aria-labelledby="Signin modal">
+      <!-- <div class="modal" role="dialog">
         <button class="modal__close"><i class="fas fa-times modal__close-icon"></i></button>
         <div class="modal__tabs">
           <a href="" class="modal__tab modal__tab_active">Sign In</a>
@@ -50,6 +50,45 @@
               <a href="" class="signin-form__link">Lost your password</a>
             </div>
             <button type="submit" class="button button_blue">Sign In</button>
+          </form>
+          <p>Or Connect With Social Networks</p>
+          <div class="signin-form__social-buttons">
+            <button type="button" class="icon-button icon-button_darkblue">
+              <i class="fab fa-facebook-f"></i>
+            </button>
+            <button type="button" class="icon-button icon-button_blue">
+              <i class="fab fa-twitter"></i>
+            </button>
+            <button type="button" class="icon-button icon-button_red">
+              <i class="fab fa-google"></i>
+            </button>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="modal" role="dialog">
+        <button class="modal__close"><i class="fas fa-times modal__close-icon"></i></button>
+        <div class="modal__tabs">
+          <a href="" class="modal__tab">Sign In</a>
+          <a href="" class="modal__tab modal__tab_active">Sign Up</a>
+        </div>
+        <div class="modal__content">
+          <form action="" class="signin-form">
+            <div class="input-text">
+              <label for="email" class="input-text__label">Email *</label>
+              <input type="email" id="email" />
+            </div>
+            <div class="input-text">
+              <label for="username" class="input-text__label">Username *</label>
+              <input type="text" id="username" />
+            </div>
+            <div class="input-text">
+              <label for="password" class="input-text__label">Password</label>
+              <input type="password" id="password" />
+            </div>
+
+            <p class="signin-form__terms">By creating an account you agree to our <a href="" class="signin-form__link">Terms and Conditions</a> and our <a href="" class="signin-form__link">Privacy Policy</a></p>
+            <button type="submit" class="button button_blue">Sign Up</button>
           </form>
           <p>Or Connect With Social Networks</p>
           <div class="signin-form__social-buttons">

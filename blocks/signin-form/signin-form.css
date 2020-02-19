@@ -1,6 +1,7 @@
 @import url(./__social-buttons/signin-form__social-buttons.css);
 @import url(./__link/signin-form__link.css);
 @import url(./__remember/signin-form__remember.css);
+@import url(./__terms/signin-form__terms.css);
 
 .signin-form {
   width: 100%;
