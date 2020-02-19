@@ -20,6 +20,12 @@
 @import url(../blocks/activity-card/activity-card.css);
 @import url(../blocks/search-results/search-results.css);
 @import url(../blocks/round-icon/round-icon.css);
+@import url(../blocks/modal/modal.css);
+@import url(../blocks/signin-form/signin-form.css);
+@import url(../blocks/input-checkbox/input-checkbox.css);
+@import url(../blocks/input-text/input-text.css);
+@import url(../blocks/icon-button/icon-button.css);
+@import url(../blocks/button/button.css);
 
 body {
   font-family: 'Rubik', sans-serif;

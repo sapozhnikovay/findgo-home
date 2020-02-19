@@ -1,0 +1,18 @@
+@import url(./__backdrop/modal__backdrop.css);
+@import url(./__content/modal__content.css);
+@import url(./__tab/modal__tab.css);
+@import url(./__tabs/modal__tabs.css);
+@import url(./__close-icon/modal__close-icon.css);
+@import url(./__close/modal__close.css);
+
+.modal {
+  position: fixed;
+  width: 450px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  left: calc(50% - 225px);
+  z-index: 9999;
+
+  margin: 50vh auto 0;
+  transform: translateY(-50%);
+}

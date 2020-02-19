@@ -1,0 +1,41 @@
+.input-checkbox__label {
+  position: relative;
+  display: inline-block;
+
+  /*16px width of fake checkbox + 6px distance between fake checkbox and text*/
+  padding-left: 30px;
+}
+
+.input-checkbox__label::before,
+.input-checkbox__label::after {
+  position: absolute;
+  content: '';
+
+  /*Needed for the line-height to take effect*/
+  display: inline-block;
+}
+
+/*Outer box of the fake checkbox*/
+.input-checkbox__label::before {
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 2px;
+  left: 0px;
+  top: 0px;
+}
+
+/*Checkmark of the fake checkbox*/
+.input-checkbox__label::after {
+  width: 10px;
+  height: 10px;
+  box-sizing: border-box;
+  background-color: #28b8dc;
+  border-radius: 2px;
+
+  left: 5px;
+  top: 5px;
+}

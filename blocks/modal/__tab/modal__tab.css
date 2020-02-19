@@ -1,0 +1,16 @@
+.modal__tab {
+  font-family: 'DIN Pro';
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #242423;
+
+  flex: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__tab_active {
+  background-color: #ffffff;
+}

@@ -1,0 +1,17 @@
+.button {
+  height: 50px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  font-family: 'Rubik';
+  font-size: 17px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.button_blue {
+  background-color: #28b8dc;
+}

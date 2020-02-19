@@ -1,0 +1,27 @@
+@import url(./__label/input-checkbox__label.css);
+
+.input-checkbox {
+  display: block;
+  line-height: 20px;
+}
+
+.input-checkbox input[type='checkbox'] {
+  opacity: 0;
+  /* Not good for screen readers */
+  display: none;
+}
+
+/*Hide the checkmark by default*/
+.input-checkbox input[type='checkbox'] + label::after {
+  content: none;
+}
+
+/*Unhide on the checked state*/
+.input-checkbox input[type='checkbox']:checked + label::after {
+  content: '';
+}
+
+/*Adding focus styles on the outer-box of the fake checkbox*/
+.input-checkbox input[type='checkbox']:focus + label::before {
+  outline: rgb(59, 153, 252) auto 5px;
+}
