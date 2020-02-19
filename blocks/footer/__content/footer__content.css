@@ -5,3 +5,16 @@
   align-items: center;
   height: 80px;
 }
+
+
+@media (max-width: 767px) {
+  .footer__content {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+}

@@ -4,3 +4,10 @@
   grid-gap: 32px;
   margin-top: 12px;
 }
+
+@media(min-width: 576px) and (max-width: 991px) {
+  .footer__storecards {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+}
