@@ -10,3 +10,11 @@
   align-items: center;
   margin-bottom: 66px;
 }
+
+@media (max-width: 767px) {
+  .search {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: start;
+  }
+}

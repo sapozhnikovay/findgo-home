@@ -1,0 +1,9 @@
+.header__menu-button {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .header__menu-button {
+    display: block;
+  }
+}

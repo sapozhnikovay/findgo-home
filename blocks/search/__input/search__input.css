@@ -24,3 +24,10 @@
 .search__input:-ms-input-placeholder {
   color: #323031;
 }
+
+
+@media (max-width: 767px) {
+  .search__input {
+    width: 100%;
+  }
+}

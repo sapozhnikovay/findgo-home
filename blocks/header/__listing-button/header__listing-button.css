@@ -14,3 +14,9 @@
 .header__listing-button > i {
   margin-right: 11px;
 }
+
+@media (max-width: 991px) {
+  .header__listing-button {
+    display: none;
+  }
+}

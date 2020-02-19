@@ -6,11 +6,12 @@
 @import url(./__subtitle/header__subtitle.css);
 @import url(./__title/header__title.css);
 @import url(./__top/header__top.css);
+@import url(./__menu-button/header__menu-button.css);
 
 .header{
   background-color: #0f0f10;
   color: #ffffff;
   padding-top: 25px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   text-align: center;
 }
