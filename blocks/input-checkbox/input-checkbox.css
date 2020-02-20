@@ -3,12 +3,16 @@
 .input-checkbox {
   display: block;
   line-height: 20px;
+  position: relative;
 }
 
 .input-checkbox input[type='checkbox'] {
   opacity: 0;
   /* Not good for screen readers */
-  display: none;
+  /* display: none; */
+  position: absolute;
+  left: 4px;
+  top: 4px;
 }
 
 /*Hide the checkmark by default*/
