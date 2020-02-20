@@ -1,0 +1,70 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/grid/grid.css);
+@import url(../blocks/container/container.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/storecard/storecard.css);
+@import url(../blocks/news/news.css);
+@import url(../blocks/section/section.css);
+@import url(../blocks/news-card/news-card.css);
+@import url(../blocks/tag/tag.css);
+@import url(../blocks/cities/cities.css);
+@import url(../blocks/city-card/city-card.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/place-card/place-card.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/highlights/highlights.css);
+@import url(../blocks/highlight/highlight.css);
+@import url(../blocks/search/search.css);
+@import url(../blocks/activities/activities.css);
+@import url(../blocks/activity-card/activity-card.css);
+@import url(../blocks/search-results/search-results.css);
+@import url(../blocks/round-icon/round-icon.css);
+@import url(../blocks/modal/modal.css);
+@import url(../blocks/signin-form/signin-form.css);
+@import url(../blocks/input-checkbox/input-checkbox.css);
+@import url(../blocks/input-text/input-text.css);
+@import url(../blocks/icon-button/icon-button.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/footer2/footer2.css);
+@import url(../blocks/navlist/navlist.css);
+@import url(../blocks/text/text.css);
+@import url(../blocks/icon/icon.css);
+
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+p {
+  margin-bottom: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:visited {
+  /* color: unset; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'DIN Pro';
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0;
+}

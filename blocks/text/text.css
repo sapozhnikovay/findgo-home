@@ -1,0 +1,19 @@
+.text {
+
+}
+
+.text_center {
+  text-align: center;
+}
+
+.text_left {
+  text-align: left;
+}
+
+.text_right {
+  text-align: right;
+}
+
+.text_justify {
+  text-align: justify;
+}

@@ -1,0 +1,13 @@
+.navlist__item {
+  line-height: 30px;
+}
+
+.navlist__item:not(:last-child) {
+  margin-right: 55px;
+}
+
+@media (max-width: 575px) {
+  .navlist__item {
+    margin: 0 !important;
+  }
+}

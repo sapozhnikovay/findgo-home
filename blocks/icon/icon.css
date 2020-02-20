@@ -1,0 +1,13 @@
+@import url(./_border/icon_border.css);
+@import url(./_color/icon_color.css);
+@import url(./_size/icon_size.css);
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  color: #8d8d8d;
+}

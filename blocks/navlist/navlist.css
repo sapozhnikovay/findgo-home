@@ -1,0 +1,6 @@
+@import url(./__item/navlist__item.css);
+
+.navlist {
+  display: flex;
+  align-items: center;
+}
