@@ -1,0 +1,5 @@
+@import url(./_show/modal__tabpanel_show.css);
+
+.modal__tabpanel {
+  display: none;
+}

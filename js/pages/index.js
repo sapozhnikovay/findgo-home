@@ -1,15 +1,18 @@
-import { signInMode } from '../constants/constants.js';
+import { modal } from '../../blocks/modal/modal.js';
+import { tablist } from '../../blocks/modal/tablist.js';
 
-const profileButton = document.getElementsByClassName('header__profile-link').item(0);
 const buttonGoUp = document.getElementsByClassName('footer__button-up').item(0);
-
-profileButton.addEventListener('click', event => {
-  openSignInModal(signInMode.SIGN_IN);
-  event.preventDefault();
-});
-
-const openSignInModal = function(mode) {};
 
 buttonGoUp.addEventListener('click', event => {
   window.scrollTo({ top: 0 });
 });
+
+const signInModal = modal('signInModal');
+const signInTablist = tablist('signInTabs', {
+  panelActiveClass: 'modal__tabpanel_show',
+  tabActiveClass: 'modal__tab_active'
+});
+
+signInModal.onOpen = () => {
+  signInTablist.openTab('tab-signin');
+};

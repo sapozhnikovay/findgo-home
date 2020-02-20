@@ -23,6 +23,77 @@
   </head>
 
   <body>
+    <!-- ========= SIGN IN | SIGN UP modal ========== -->
+    <section>
+      <div class="modal__backdrop"></div>
+      <div class="modal" role="dialog" id="signInModal">
+        <button class="modal__close" data-dismiss="modal"><i class="fas fa-times modal__close-icon" aria-hidden="true"></i></button>
+        <div class="modal__tabs" role="tablist" id="signInTabs">
+          <a href="" class="modal__tab modal__tab_active" role="tab" data-toggle="tab" aria-selected="true" aria-controls="tabpanel-signin" id="tab-signin">Sign In</a>
+          <a href="" class="modal__tab" role="tab" data-toggle="tab" aria-selected="false" aria-controls="tabpanel-signup" id="tab-signup">Sign Up</a>
+        </div>
+        <div class="modal__content">
+          <!-- Sign in form -->
+          <div class="modal__tabpanel modal__tabpanel_show" role="tabpanel" aria-labelledby="tab-signin" id="tabpanel-signin">
+            <form action="" class="signin-form">
+              <div class="input-text">
+                <label for="username" class="input-text__label">Username or Email Address *</label>
+                <input type="text" id="signin_username" />
+              </div>
+              <div class="input-text">
+                <label for="password" class="input-text__label">Password</label>
+                <input type="password" id="signin_password" />
+              </div>
+              <div class="signin-form__remember">
+                <div class="input-checkbox">
+                  <input type="checkbox" id="signin_rememberme" />
+                  <label for="rememberme" class="input-checkbox__label">Remember me?</label>
+                </div>
+                <a href="" class="signin-form__link">Lost your password</a>
+              </div>
+              <button type="submit" class="button button_blue">Sign In</button>
+            </form>
+          </div>
+
+          <!-- Sign up form -->
+          <div class="modal__tabpanel" role="tabpanel" aria-labelledby="tab-signup" id="tabpanel-signup">
+            <form action="" class="signin-form">
+              <div class="input-text">
+                <label for="email" class="input-text__label">Email *</label>
+                <input type="email" id="signup_email" />
+              </div>
+              <div class="input-text">
+                <label for="username" class="input-text__label">Username *</label>
+                <input type="text" id="signup_username" />
+              </div>
+              <div class="input-text">
+                <label for="password" class="input-text__label">Password</label>
+                <input type="password" id="signup_password" />
+              </div>
+
+              <p class="signin-form__terms">By creating an account you agree to our <a href="" class="signin-form__link">Terms and Conditions</a> and our <a href="" class="signin-form__link">Privacy Policy</a></p>
+              <button type="submit" class="button button_blue">Sign Up</button>
+            </form>
+          </div>
+
+          <!-- Authenticate with social networks block -->
+          <p>Or Connect With Social Networks</p>
+          <div class="signin-form__social-buttons">
+            <button type="button" class="icon-button icon-button_darkblue">
+              <i class="fab fa-facebook-f"></i>
+            </button>
+            <button type="button" class="icon-button icon-button_blue">
+              <i class="fab fa-twitter"></i>
+            </button>
+            <button type="button" class="icon-button icon-button_red">
+              <i class="fab fa-google"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========= MAIN HEADER ========== -->
     <header class="header">
       <div class="container">
         <section class="header__top">
@@ -45,7 +116,7 @@
             <!-- Add listing button -->
             <button class="header__listing-button"><i class="fas fa-plus"></i>Add Listing</button>
             <!-- Profile icon -->
-            <a href="" class="header__profile-link"><img src="/images/icon_user.png" alt="user profile"/></a>
+            <a href="" class="header__profile-link" data-toggle="modal" data-target="#signInModal"><img src="/images/icon_user.png" alt="user profile"/></a>
           </div>
         </section>
         <!-- Hero with form -->
@@ -436,6 +507,6 @@
       </div>
     </footer>
 
-    <script  type="module" src="index.js"></script>
+    <script type="module" src="index.js"></script>
   </body>
 </html>

@@ -1,3 +1,5 @@
+@import url(./_show/modal__backdrop_show.css);
+
 .modal__backdrop {
   position: fixed;
   width: 100%;
@@ -5,4 +7,5 @@
   opacity: 0.8;
   background-color: #242423;
   z-index: 999;
+  display: none;
 }

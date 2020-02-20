@@ -1,9 +1,11 @@
 @import url(./__backdrop/modal__backdrop.css);
 @import url(./__content/modal__content.css);
-@import url(./__tab/modal__tab.css);
 @import url(./__tabs/modal__tabs.css);
+@import url(./__tab/modal__tab.css);
+@import url(./__tabpanel/modal__tabpanel.css);
 @import url(./__close-icon/modal__close-icon.css);
 @import url(./__close/modal__close.css);
+@import url(./_show/modal_show.css);
 
 .modal {
   position: fixed;
@@ -12,6 +14,7 @@
   border-radius: 2px;
   left: calc(50% - 225px);
   z-index: 9999;
+  display: none;
 
   margin: 50vh auto 0;
   transform: translateY(-50%);
