@@ -1,0 +1,23 @@
+.button_size_sm {
+  height: 40px;
+  padding: 0 20px;
+  font-size: 15px;
+}
+
+.button_size_md {
+  height: 50px;
+  padding: 0 25px;
+  font-size: 17px;
+}
+
+.button_size_lg {
+  height: 60px;
+  font-size: 18px;
+  padding: 0 30px;
+}
+
+.button_size_xl {
+  height: 70px;
+  padding: 0 35px;
+  font-size: 19px;
+}

@@ -1,17 +1,21 @@
+@import url(./_color/button_color.css);
+@import url(./_size/button_size.css);
+@import url(./_has-icon/button_has-icon.css);
+@import url(./_border/button_border.css);
+
 .button {
-  height: 50px;
   border-radius: 2px;
   border: none;
   outline: none;
   cursor: pointer;
 
   font-family: 'Rubik';
-  font-size: 17px;
   line-height: 1.2;
   font-weight: 300;
   color: #ffffff;
-}
 
-.button_blue {
-  background-color: #28b8dc;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
