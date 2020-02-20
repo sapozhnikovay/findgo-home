@@ -16,3 +16,10 @@
   cursor: pointer;
   outline: none;
 }
+
+
+@media (max-width: 575px) {
+  .modal__close {
+    right: -10px;
+  }
+}

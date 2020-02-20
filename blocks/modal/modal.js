@@ -1,11 +1,14 @@
 export class Modal {
   _rootElement = null;
   _isVisible = false;
+  _backdropElement = null;
+  _options = {}
   onOpen = null;
   onClose = null;
 
   constructor(targetElement, options = { backdrop: true, keyboard: true, show: false }) {
     this._rootElement = targetElement;
+    this._options = options;
 
     /* Add listeners to open buttons */
     [...document.querySelectorAll('[data-toggle="modal"]')]
@@ -39,6 +42,12 @@ export class Modal {
   }
 
   open = function() {
+    if (this._options.backdrop) {
+      this._backdropElement = document.createElement('div');
+      this._backdropElement.classList.add('modal__backdrop', 'modal__backdrop_show');
+      document.getElementsByTagName('body').item(0).appendChild(this._backdropElement);
+    }
+
     this._rootElement.classList.add('modal_show');
     this._isVisible = true;
     if (typeof this.onOpen === 'function') {
@@ -47,6 +56,10 @@ export class Modal {
   };
 
   close = function() {
+    if (this._options.backdrop) {
+      document.getElementsByTagName('body').item(0).removeChild(this._backdropElement);
+    }
+
     this._rootElement.classList.remove('modal_show');
     this._isVisible = false;
     if (typeof this.onClose === 'function') {

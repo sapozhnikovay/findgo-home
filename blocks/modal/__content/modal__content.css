@@ -16,3 +16,9 @@
 .modal__content > *:not(:last-child) {
   margin-bottom: 20px;
 }
+
+@media (max-width: 575px) {
+  .modal__content {
+    padding: 20px 10px 20px;
+  }
+}

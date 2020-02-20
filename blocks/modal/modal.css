@@ -19,3 +19,12 @@
   margin: 50vh auto 0;
   transform: translateY(-50%);
 }
+
+
+@media (max-width: 575px) {
+  .modal {
+    width: initial;
+    left: 15px;
+    right: 15px;
+  }
+}
