@@ -2,7 +2,9 @@ export class Modal {
   _rootElement = null;
   _isVisible = false;
   _backdropElement = null;
-  _options = {}
+  _options = {};
+  _backdropListener = () => this.close();
+
   onOpen = null;
   onClose = null;
 
@@ -45,7 +47,11 @@ export class Modal {
     if (this._options.backdrop) {
       this._backdropElement = document.createElement('div');
       this._backdropElement.classList.add('modal__backdrop', 'modal__backdrop_show');
-      document.getElementsByTagName('body').item(0).appendChild(this._backdropElement);
+      document
+        .getElementsByTagName('body')
+        .item(0)
+        .appendChild(this._backdropElement);
+      this._backdropElement.addEventListener('click', this._backdropListener);
     }
 
     this._rootElement.classList.add('modal_show');
@@ -57,7 +63,11 @@ export class Modal {
 
   close = function() {
     if (this._options.backdrop) {
-      document.getElementsByTagName('body').item(0).removeChild(this._backdropElement);
+      this._backdropElement.removeEventListener('click', this._backdropListener);
+      document
+        .getElementsByTagName('body')
+        .item(0)
+        .removeChild(this._backdropElement);
     }
 
     this._rootElement.classList.remove('modal_show');
