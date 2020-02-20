@@ -1,6 +1,5 @@
 .search__dropdown-icon {
-  position: absolute;
   color: #67676f;
-  right: 30px;
+  margin: 0px 30px;
   font-size: 18px;
 }

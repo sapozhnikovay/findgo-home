@@ -1,15 +1,12 @@
 .search__input {
-  width: 500px;
   height: 60px;
-  background-color: #ffffff;
-  border-radius: 2px;
   font-size: 15px;
   line-height: 1.2;
   font-weight: 400;
   color: #323031;
-  padding-left: 30px;
   border: none;
   outline: none;
+  flex: auto;
 }
 
 .search__input::-webkit-input-placeholder {
@@ -23,11 +20,4 @@
 } /* Firefox 18- */
 .search__input:-ms-input-placeholder {
   color: #323031;
-}
-
-
-@media (max-width: 767px) {
-  .search__input {
-    width: 100%;
-  }
 }
